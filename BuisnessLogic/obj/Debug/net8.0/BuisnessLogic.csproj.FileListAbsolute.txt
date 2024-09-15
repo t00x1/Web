@@ -1,0 +1,15 @@
+C:\Users\sasha\Desktop\WebApi\BuisnessLogic\bin\Debug\net8.0\BuisnessLogic.deps.json
+C:\Users\sasha\Desktop\WebApi\BuisnessLogic\bin\Debug\net8.0\BuisnessLogic.dll
+C:\Users\sasha\Desktop\WebApi\BuisnessLogic\bin\Debug\net8.0\BuisnessLogic.pdb
+C:\Users\sasha\Desktop\WebApi\BuisnessLogic\obj\Debug\net8.0\BuisnessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sasha\Desktop\WebApi\BuisnessLogic\obj\Debug\net8.0\BuisnessLogic.AssemblyInfoInputs.cache
+C:\Users\sasha\Desktop\WebApi\BuisnessLogic\obj\Debug\net8.0\BuisnessLogic.AssemblyInfo.cs
+C:\Users\sasha\Desktop\WebApi\BuisnessLogic\obj\Debug\net8.0\BuisnessLogic.csproj.CoreCompileInputs.cache
+C:\Users\sasha\Desktop\WebApi\BuisnessLogic\obj\Debug\net8.0\BuisnessLogic.dll
+C:\Users\sasha\Desktop\WebApi\BuisnessLogic\obj\Debug\net8.0\refint\BuisnessLogic.dll
+C:\Users\sasha\Desktop\WebApi\BuisnessLogic\obj\Debug\net8.0\BuisnessLogic.pdb
+C:\Users\sasha\Desktop\WebApi\BuisnessLogic\obj\Debug\net8.0\ref\BuisnessLogic.dll
+C:\Users\sasha\Desktop\WebApi\BuisnessLogic\bin\Debug\net8.0\DataAccess.dll
+C:\Users\sasha\Desktop\WebApi\BuisnessLogic\bin\Debug\net8.0\DataAccess.pdb
+C:\Users\sasha\Desktop\WebApi\BuisnessLogic\obj\Debug\net8.0\BuisnessLogic.csproj.AssemblyReference.cache
+C:\Users\sasha\Desktop\WebApi\BuisnessLogic\obj\Debug\net8.0\Buisness.22E12408.Up2Date

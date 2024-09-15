@@ -1,0 +1,15 @@
+C:\Users\sasha\Desktop\WebApi\BuisnessLogic\bin\Debug\net8.0\businessLogic.deps.json
+C:\Users\sasha\Desktop\WebApi\BuisnessLogic\bin\Debug\net8.0\businessLogic.dll
+C:\Users\sasha\Desktop\WebApi\BuisnessLogic\bin\Debug\net8.0\businessLogic.pdb
+C:\Users\sasha\Desktop\WebApi\BuisnessLogic\bin\Debug\net8.0\DataAccess.dll
+C:\Users\sasha\Desktop\WebApi\BuisnessLogic\bin\Debug\net8.0\DataAccess.pdb
+C:\Users\sasha\Desktop\WebApi\BuisnessLogic\obj\Debug\net8.0\businessLogic.csproj.AssemblyReference.cache
+C:\Users\sasha\Desktop\WebApi\BuisnessLogic\obj\Debug\net8.0\businessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sasha\Desktop\WebApi\BuisnessLogic\obj\Debug\net8.0\businessLogic.AssemblyInfoInputs.cache
+C:\Users\sasha\Desktop\WebApi\BuisnessLogic\obj\Debug\net8.0\businessLogic.AssemblyInfo.cs
+C:\Users\sasha\Desktop\WebApi\BuisnessLogic\obj\Debug\net8.0\businessLogic.csproj.CoreCompileInputs.cache
+C:\Users\sasha\Desktop\WebApi\BuisnessLogic\obj\Debug\net8.0\business.D5C18F55.Up2Date
+C:\Users\sasha\Desktop\WebApi\BuisnessLogic\obj\Debug\net8.0\businessLogic.dll
+C:\Users\sasha\Desktop\WebApi\BuisnessLogic\obj\Debug\net8.0\refint\businessLogic.dll
+C:\Users\sasha\Desktop\WebApi\BuisnessLogic\obj\Debug\net8.0\businessLogic.pdb
+C:\Users\sasha\Desktop\WebApi\BuisnessLogic\obj\Debug\net8.0\ref\businessLogic.dll
