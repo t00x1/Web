@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sasha\\Desktop\\WebApi\\DataAcces\\DataAccess.csproj": {}
+    "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sasha\\Desktop\\WebApi\\DataAcces\\DataAccess.csproj": {
+    "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sasha\\Desktop\\WebApi\\DataAcces\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\sasha\\Desktop\\WebApi\\DataAcces\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\sasha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sasha\\Desktop\\WebApi\\DataAcces\\obj\\",
+        "outputPath": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",

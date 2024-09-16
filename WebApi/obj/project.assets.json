@@ -3206,11 +3206,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sasha\\Desktop\\WebApi\\WebApi\\WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\sasha\\Desktop\\Web\\WebApi\\WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "C:\\Users\\sasha\\Desktop\\WebApi\\WebApi\\WebApi.csproj",
+      "projectPath": "C:\\Users\\sasha\\Desktop\\Web\\WebApi\\WebApi.csproj",
       "packagesPath": "C:\\Users\\sasha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sasha\\Desktop\\WebApi\\WebApi\\obj\\",
+      "outputPath": "C:\\Users\\sasha\\Desktop\\Web\\WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3228,8 +3228,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\sasha\\Desktop\\WebApi\\BuisnessLogic\\businessLogic.csproj": {
-              "projectPath": "C:\\Users\\sasha\\Desktop\\WebApi\\BuisnessLogic\\businessLogic.csproj"
+            "C:\\Users\\sasha\\Desktop\\Web\\BuisnessLogic\\businessLogic.csproj": {
+              "projectPath": "C:\\Users\\sasha\\Desktop\\Web\\BuisnessLogic\\businessLogic.csproj"
             }
           }
         }
