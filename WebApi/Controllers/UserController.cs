@@ -1,18 +1,19 @@
 ﻿
-using businessLogic.Interfaces;
-using DataAccess.Models;
-using DataAccess.Models;
+
+using Domain.Models;
+using Domain.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BackendApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class UserController : ControllerBase
+    public class UserController : ControllerBase 
     {
         private IUserService _userService;
-        public UserController(IUserService userService)
+        public UserController(IUserService userService) // работает при любом запросе
         {
+
             _userService = userService;
         }
 

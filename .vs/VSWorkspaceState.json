@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\BuisnessLogic",
+    "\\BuisnessLogic\\Services",
+    "\\DataAcces",
+    "\\DataAcces\\Interfaces",
+    "\\DataAcces\\Repositories",
+    "\\DataAcces\\Wrapper",
+    "\\Domain",
+    "\\WebApi",
+    "\\WebApi\\Controllers"
+  ],
+  "SelectedNode": "\\WebApi.sln",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,542 +1,163 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\sasha\\Desktop\\Web\\",
+  "WorkspaceRootPath": "C:\\Users\\Alexandr\\Desktop\\Web\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|c:\\users\\sasha\\desktop\\web\\dataacces\\wrapper\\repositorywrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|solutionrelative:dataacces\\wrapper\\repositorywrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1D663196-7F63-483D-B37C-8E220D953CC8}|WebApi\\WebApi.csproj|c:\\users\\alexandr\\desktop\\web\\webapi\\controllers\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D663196-7F63-483D-B37C-8E220D953CC8}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|c:\\users\\sasha\\desktop\\web\\dataacces\\wrapper\\irepositorywrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|solutionrelative:dataacces\\wrapper\\irepositorywrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A0ECB84-5B15-4361-AFDD-1E5FE8935D0F}|Domain\\Domain.csproj|c:\\users\\sasha\\desktop\\web\\domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A0ECB84-5B15-4361-AFDD-1E5FE8935D0F}|Domain\\Domain.csproj|solutionrelative:domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|c:\\users\\sasha\\desktop\\web\\dataacces\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|solutionrelative:dataacces\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|c:\\users\\sasha\\desktop\\web\\dataacces\\interfaces\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|solutionrelative:dataacces\\interfaces\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9F1B992-613C-4F1E-BB24-9A496C24F3B8}|BuisnessLogic\\businessLogic.csproj|c:\\users\\sasha\\desktop\\web\\buisnesslogic\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9F1B992-613C-4F1E-BB24-9A496C24F3B8}|BuisnessLogic\\businessLogic.csproj|solutionrelative:buisnesslogic\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9F1B992-613C-4F1E-BB24-9A496C24F3B8}|BuisnessLogic\\businessLogic.csproj|c:\\users\\sasha\\desktop\\web\\buisnesslogic\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9F1B992-613C-4F1E-BB24-9A496C24F3B8}|BuisnessLogic\\businessLogic.csproj|solutionrelative:buisnesslogic\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|c:\\users\\sasha\\desktop\\web\\dataacces\\dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|solutionrelative:dataacces\\dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D663196-7F63-483D-B37C-8E220D953CC8}|WebApi\\WebApi.csproj|c:\\users\\sasha\\desktop\\web\\webapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D663196-7F63-483D-B37C-8E220D953CC8}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D663196-7F63-483D-B37C-8E220D953CC8}|WebApi\\WebApi.csproj|c:\\users\\sasha\\desktop\\web\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D663196-7F63-483D-B37C-8E220D953CC8}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D663196-7F63-483D-B37C-8E220D953CC8}|WebApi\\WebApi.csproj|c:\\users\\sasha\\desktop\\web\\webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1D663196-7F63-483D-B37C-8E220D953CC8}|WebApi\\WebApi.csproj|c:\\users\\alexandr\\desktop\\web\\webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D663196-7F63-483D-B37C-8E220D953CC8}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|c:\\users\\sasha\\desktop\\web\\dataacces\\models\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|solutionrelative:dataacces\\models\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1D663196-7F63-483D-B37C-8E220D953CC8}|WebApi\\WebApi.csproj|c:\\users\\alexandr\\desktop\\web\\webapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D663196-7F63-483D-B37C-8E220D953CC8}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9F1B992-613C-4F1E-BB24-9A496C24F3B8}|BuisnessLogic\\businessLogic.csproj|c:\\users\\sasha\\desktop\\web\\buisnesslogic\\businesslogic.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{B9F1B992-613C-4F1E-BB24-9A496C24F3B8}|BuisnessLogic\\businessLogic.csproj|solutionrelative:buisnesslogic\\businesslogic.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{1A0ECB84-5B15-4361-AFDD-1E5FE8935D0F}|Domain\\Domain.csproj|c:\\users\\alexandr\\desktop\\web\\domain\\interfaces\\irepositorywrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A0ECB84-5B15-4361-AFDD-1E5FE8935D0F}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\irepositorywrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|c:\\users\\sasha\\desktop\\web\\dataacces\\models\\searchhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|solutionrelative:dataacces\\models\\searchhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A0ECB84-5B15-4361-AFDD-1E5FE8935D0F}|Domain\\Domain.csproj|c:\\users\\alexandr\\desktop\\web\\domain\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A0ECB84-5B15-4361-AFDD-1E5FE8935D0F}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|c:\\users\\sasha\\desktop\\web\\dataacces\\models\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|solutionrelative:dataacces\\models\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1D663196-7F63-483D-B37C-8E220D953CC8}|WebApi\\WebApi.csproj|c:\\users\\alexandr\\desktop\\web\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D663196-7F63-483D-B37C-8E220D953CC8}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|c:\\users\\sasha\\desktop\\web\\dataacces\\models\\relationship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|solutionrelative:dataacces\\models\\relationship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B9F1B992-613C-4F1E-BB24-9A496C24F3B8}|BuisnessLogic\\businessLogic.csproj|c:\\users\\alexandr\\desktop\\web\\buisnesslogic\\services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9F1B992-613C-4F1E-BB24-9A496C24F3B8}|BuisnessLogic\\businessLogic.csproj|solutionrelative:buisnesslogic\\services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|c:\\users\\sasha\\desktop\\web\\dataacces\\models\\relation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|solutionrelative:dataacces\\models\\relation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|c:\\users\\sasha\\desktop\\web\\dataacces\\models\\recomendationsalsrating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|solutionrelative:dataacces\\models\\recomendationsalsrating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|c:\\users\\sasha\\desktop\\web\\dataacces\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|solutionrelative:dataacces\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|c:\\users\\sasha\\desktop\\web\\dataacces\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|solutionrelative:dataacces\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|c:\\users\\sasha\\desktop\\web\\dataacces\\models\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|solutionrelative:dataacces\\models\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|c:\\users\\sasha\\desktop\\web\\dataacces\\models\\friendrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|solutionrelative:dataacces\\models\\friendrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|c:\\users\\sasha\\desktop\\web\\dataacces\\models\\fingerprinting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|solutionrelative:dataacces\\models\\fingerprinting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|c:\\users\\sasha\\desktop\\web\\dataacces\\models\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|solutionrelative:dataacces\\models\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|c:\\users\\sasha\\desktop\\web\\dataacces\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|solutionrelative:dataacces\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|c:\\users\\sasha\\desktop\\web\\dataacces\\models\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|solutionrelative:dataacces\\models\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D663196-7F63-483D-B37C-8E220D953CC8}|WebApi\\WebApi.csproj|c:\\users\\sasha\\desktop\\web\\webapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D663196-7F63-483D-B37C-8E220D953CC8}|WebApi\\WebApi.csproj|solutionrelative:webapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|c:\\users\\sasha\\desktop\\web\\dataacces\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|solutionrelative:dataacces\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|c:\\users\\sasha\\desktop\\web\\dataacces\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|solutionrelative:dataacces\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|c:\\users\\sasha\\desktop\\web\\dataacces\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|solutionrelative:dataacces\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|c:\\users\\sasha\\desktop\\web\\dataacces\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|solutionrelative:dataacces\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|c:\\users\\sasha\\desktop\\web\\dataacces\\models\\inspireo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|solutionrelative:dataacces\\models\\inspireo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A0ECB84-5B15-4361-AFDD-1E5FE8935D0F}|Domain\\Domain.csproj|c:\\users\\alexandr\\desktop\\web\\domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A0ECB84-5B15-4361-AFDD-1E5FE8935D0F}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 1,
+      "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 698,
-          "SelectedChildIndex": 8,
+          "DockedWidth": 215,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IRepositoryBase.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Interfaces\\IRepositoryBase.cs",
-              "RelativeDocumentMoniker": "DataAcces\\Interfaces\\IRepositoryBase.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Interfaces\\IRepositoryBase.cs",
-              "RelativeToolTip": "DataAcces\\Interfaces\\IRepositoryBase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T12:18:45.502Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Interfaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "DataAcces\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Interfaces\\IUserRepository.cs",
-              "RelativeToolTip": "DataAcces\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T14:09:21.668Z",
-              "EditorCaption": ""
-            },
+            }
+          ]
+        },
+        {
+          "DockedWidth": 185,
+          "SelectedChildIndex": 5,
+          "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\BuisnessLogic\\Services\\IUserService.cs",
-              "RelativeDocumentMoniker": "BuisnessLogic\\Services\\IUserService.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\BuisnessLogic\\Services\\IUserService.cs",
-              "RelativeToolTip": "BuisnessLogic\\Services\\IUserService.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAA9wA0AAAAFAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Alexandr\\Desktop\\Web\\WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Alexandr\\Desktop\\Web\\WebApi\\Program.cs",
+              "RelativeToolTip": "WebApi\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAgwBkAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T14:21:33.478Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\BuisnessLogic\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "BuisnessLogic\\Interfaces\\IUserService.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\BuisnessLogic\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "BuisnessLogic\\Interfaces\\IUserService.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T14:19:31.602Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DataAccess.csproj",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\DataAccess.csproj",
-              "RelativeDocumentMoniker": "DataAcces\\DataAccess.csproj",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\DataAccess.csproj",
-              "RelativeToolTip": "DataAcces\\DataAccess.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-15T12:06:36.894Z",
+              "WhenOpened": "2024-09-26T19:18:52.235Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\Domain\\Class1.cs",
-              "RelativeDocumentMoniker": "Domain\\Class1.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\Domain\\Class1.cs",
-              "RelativeToolTip": "Domain\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\Alexandr\\Desktop\\Web\\WebApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\Alexandr\\Desktop\\Web\\WebApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACUAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T11:15:54.508Z",
+              "WhenOpened": "2024-09-26T19:24:13.164Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IRepositoryWrapper.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Wrapper\\IRepositoryWrapper.cs",
-              "RelativeDocumentMoniker": "DataAcces\\Wrapper\\IRepositoryWrapper.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Wrapper\\IRepositoryWrapper.cs",
-              "RelativeToolTip": "DataAcces\\Wrapper\\IRepositoryWrapper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAcAAAA",
+              "DocumentIndex": 7,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Alexandr\\Desktop\\Web\\Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Alexandr\\Desktop\\Web\\Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T13:53:34.517Z",
+              "WhenOpened": "2024-09-26T19:23:25.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IRepositoryWrapper.cs",
+              "DocumentMoniker": "C:\\Users\\Alexandr\\Desktop\\Web\\Domain\\Interfaces\\IRepositoryWrapper.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IRepositoryWrapper.cs",
+              "ToolTip": "C:\\Users\\Alexandr\\Desktop\\Web\\Domain\\Interfaces\\IRepositoryWrapper.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IRepositoryWrapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T19:23:19.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Alexandr\\Desktop\\Web\\Domain\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\Alexandr\\Desktop\\Web\\Domain\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T19:22:50.282Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RepositoryWrapper.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Wrapper\\RepositoryWrapper.cs",
-              "RelativeDocumentMoniker": "DataAcces\\Wrapper\\RepositoryWrapper.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Wrapper\\RepositoryWrapper.cs",
-              "RelativeToolTip": "DataAcces\\Wrapper\\RepositoryWrapper.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAgwBMAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T13:54:26.873Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\WebApi\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "WebApi\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\WebApi\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "WebApi\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAmwDEAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T11:05:58.012Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "DataAcces\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "DataAcces\\Repositories\\UserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T14:12:54.701Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "RepositoryBase.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Repositories\\RepositoryBase.cs",
-              "RelativeDocumentMoniker": "DataAcces\\Repositories\\RepositoryBase.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Repositories\\RepositoryBase.cs",
-              "RelativeToolTip": "DataAcces\\Repositories\\RepositoryBase.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAqwBMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T12:21:53.629Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Tag.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Models\\Tag.cs",
-              "RelativeDocumentMoniker": "DataAcces\\Models\\Tag.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Models\\Tag.cs",
-              "RelativeToolTip": "DataAcces\\Models\\Tag.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T14:36:24.449Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Models\\User.cs",
-              "RelativeDocumentMoniker": "DataAcces\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Models\\User.cs",
-              "RelativeToolTip": "DataAcces\\Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T14:36:24.888Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Inspireo.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Models\\Inspireo.cs",
-              "RelativeDocumentMoniker": "DataAcces\\Models\\Inspireo.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Models\\Inspireo.cs",
-              "RelativeToolTip": "DataAcces\\Models\\Inspireo.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T12:16:21.934Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\WebApi\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "WebApi\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\WebApi\\Controllers\\UserController.cs",
-              "RelativeToolTip": "WebApi\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T14:41:00.925Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "WebApi\\Program.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\WebApi\\Program.cs",
-              "RelativeToolTip": "WebApi\\Program.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAA0AAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T11:05:54.503Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Session.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Models\\Session.cs",
-              "RelativeDocumentMoniker": "DataAcces\\Models\\Session.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Models\\Session.cs",
-              "RelativeToolTip": "DataAcces\\Models\\Session.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T14:42:43.779Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "businessLogic.csproj",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\BuisnessLogic\\businessLogic.csproj",
-              "RelativeDocumentMoniker": "BuisnessLogic\\businessLogic.csproj",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\BuisnessLogic\\businessLogic.csproj",
-              "RelativeToolTip": "BuisnessLogic\\businessLogic.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-15T15:10:25.209Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "SearchHistory.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Models\\SearchHistory.cs",
-              "RelativeDocumentMoniker": "DataAcces\\Models\\SearchHistory.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Models\\SearchHistory.cs",
-              "RelativeToolTip": "DataAcces\\Models\\SearchHistory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T14:42:40.785Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Report.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Models\\Report.cs",
-              "RelativeDocumentMoniker": "DataAcces\\Models\\Report.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Models\\Report.cs",
-              "RelativeToolTip": "DataAcces\\Models\\Report.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T14:42:38.026Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Relationship.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Models\\Relationship.cs",
-              "RelativeDocumentMoniker": "DataAcces\\Models\\Relationship.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Models\\Relationship.cs",
-              "RelativeToolTip": "DataAcces\\Models\\Relationship.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T14:42:35.518Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Relation.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Models\\Relation.cs",
-              "RelativeDocumentMoniker": "DataAcces\\Models\\Relation.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Models\\Relation.cs",
-              "RelativeToolTip": "DataAcces\\Models\\Relation.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T14:42:31.834Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "RecomendationsAlsRating.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Models\\RecomendationsAlsRating.cs",
-              "RelativeDocumentMoniker": "DataAcces\\Models\\RecomendationsAlsRating.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Models\\RecomendationsAlsRating.cs",
-              "RelativeToolTip": "DataAcces\\Models\\RecomendationsAlsRating.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T14:42:29.102Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Post.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Models\\Post.cs",
-              "RelativeDocumentMoniker": "DataAcces\\Models\\Post.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Models\\Post.cs",
-              "RelativeToolTip": "DataAcces\\Models\\Post.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T14:42:26.492Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Notification.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Models\\Notification.cs",
-              "RelativeDocumentMoniker": "DataAcces\\Models\\Notification.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Models\\Notification.cs",
-              "RelativeToolTip": "DataAcces\\Models\\Notification.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T14:42:12.012Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
               "Title": "Image.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Models\\Image.cs",
-              "RelativeDocumentMoniker": "DataAcces\\Models\\Image.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Models\\Image.cs",
-              "RelativeToolTip": "DataAcces\\Models\\Image.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAATAAAA",
+              "DocumentMoniker": "C:\\Users\\Alexandr\\Desktop\\Web\\WebApi\\Controllers\\Image.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\Image.cs",
+              "ToolTip": "C:\\Users\\Alexandr\\Desktop\\Web\\WebApi\\Controllers\\Image.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\Image.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAADwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T14:42:09.536Z"
+              "WhenOpened": "2024-09-26T19:18:47.886Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "FriendRequest.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Models\\FriendRequest.cs",
-              "RelativeDocumentMoniker": "DataAcces\\Models\\FriendRequest.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Models\\FriendRequest.cs",
-              "RelativeToolTip": "DataAcces\\Models\\FriendRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAlAAAA",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Alexandr\\Desktop\\Web\\WebApi\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Alexandr\\Desktop\\Web\\WebApi\\Controllers\\UserController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\UserController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T14:42:06.353Z"
+              "WhenOpened": "2024-09-26T19:18:07.667Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "FingerPrinting.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Models\\FingerPrinting.cs",
-              "RelativeDocumentMoniker": "DataAcces\\Models\\FingerPrinting.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Models\\FingerPrinting.cs",
-              "RelativeToolTip": "DataAcces\\Models\\FingerPrinting.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAjAAAA",
+              "DocumentIndex": 6,
+              "Title": "ImageService.cs",
+              "DocumentMoniker": "C:\\Users\\Alexandr\\Desktop\\Web\\BuisnessLogic\\Services\\ImageService.cs",
+              "RelativeDocumentMoniker": "BuisnessLogic\\Services\\ImageService.cs",
+              "ToolTip": "C:\\Users\\Alexandr\\Desktop\\Web\\BuisnessLogic\\Services\\ImageService.cs",
+              "RelativeToolTip": "BuisnessLogic\\Services\\ImageService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwAwAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T14:42:02.573Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Config.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Models\\Config.cs",
-              "RelativeDocumentMoniker": "DataAcces\\Models\\Config.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Models\\Config.cs",
-              "RelativeToolTip": "DataAcces\\Models\\Config.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T14:41:58.359Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Comment.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Models\\Comment.cs",
-              "RelativeDocumentMoniker": "DataAcces\\Models\\Comment.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Models\\Comment.cs",
-              "RelativeToolTip": "DataAcces\\Models\\Comment.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T14:41:46.748Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Album.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Models\\Album.cs",
-              "RelativeDocumentMoniker": "DataAcces\\Models\\Album.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Models\\Album.cs",
-              "RelativeToolTip": "DataAcces\\Models\\Album.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T14:41:50.309Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\WebApi\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "WebApi\\WeatherForecast.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\WebApi\\WeatherForecast.cs",
-              "RelativeToolTip": "WebApi\\WeatherForecast.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T11:05:53.259Z"
+              "WhenOpened": "2024-09-26T13:39:16.969Z",
+              "EditorCaption": ""
             }
           ]
         }
