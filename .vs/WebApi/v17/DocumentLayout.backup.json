@@ -3,36 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\Alexandr\\Desktop\\Web\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1D663196-7F63-483D-B37C-8E220D953CC8}|WebApi\\WebApi.csproj|c:\\users\\alexandr\\desktop\\web\\webapi\\controllers\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D663196-7F63-483D-B37C-8E220D953CC8}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B9F1B992-613C-4F1E-BB24-9A496C24F3B8}|BuisnessLogic\\businessLogic.csproj|c:\\users\\alexandr\\desktop\\web\\buisnesslogic\\services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9F1B992-613C-4F1E-BB24-9A496C24F3B8}|BuisnessLogic\\businessLogic.csproj|solutionrelative:buisnesslogic\\services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9F1B992-613C-4F1E-BB24-9A496C24F3B8}|BuisnessLogic\\businessLogic.csproj|c:\\users\\alexandr\\desktop\\web\\buisnesslogic\\services\\iimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9F1B992-613C-4F1E-BB24-9A496C24F3B8}|BuisnessLogic\\businessLogic.csproj|solutionrelative:buisnesslogic\\services\\iimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B12522D4-2510-42B3-82F6-472758927522}|Infrastructure\\Infrastructure.csproj|c:\\users\\alexandr\\desktop\\web\\infrastructure\\ifileoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B12522D4-2510-42B3-82F6-472758927522}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\ifileoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D663196-7F63-483D-B37C-8E220D953CC8}|WebApi\\WebApi.csproj|c:\\users\\alexandr\\desktop\\web\\webapi\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D663196-7F63-483D-B37C-8E220D953CC8}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1D663196-7F63-483D-B37C-8E220D953CC8}|WebApi\\WebApi.csproj|c:\\users\\alexandr\\desktop\\web\\webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D663196-7F63-483D-B37C-8E220D953CC8}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D663196-7F63-483D-B37C-8E220D953CC8}|WebApi\\WebApi.csproj|c:\\users\\alexandr\\desktop\\web\\webapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D663196-7F63-483D-B37C-8E220D953CC8}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B12522D4-2510-42B3-82F6-472758927522}|Infrastructure\\Infrastructure.csproj|c:\\users\\alexandr\\desktop\\web\\infrastructure\\windowsfilecreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B12522D4-2510-42B3-82F6-472758927522}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\windowsfilecreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A0ECB84-5B15-4361-AFDD-1E5FE8935D0F}|Domain\\Domain.csproj|c:\\users\\alexandr\\desktop\\web\\domain\\interfaces\\irepositorywrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A0ECB84-5B15-4361-AFDD-1E5FE8935D0F}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\irepositorywrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B12522D4-2510-42B3-82F6-472758927522}|Infrastructure\\Infrastructure.csproj|c:\\users\\alexandr\\desktop\\web\\infrastructure\\imagefile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B12522D4-2510-42B3-82F6-472758927522}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\imagefile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A0ECB84-5B15-4361-AFDD-1E5FE8935D0F}|Domain\\Domain.csproj|c:\\users\\alexandr\\desktop\\web\\domain\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A0ECB84-5B15-4361-AFDD-1E5FE8935D0F}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B12522D4-2510-42B3-82F6-472758927522}|Infrastructure\\Infrastructure.csproj|c:\\users\\alexandr\\desktop\\web\\infrastructure\\jsonfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B12522D4-2510-42B3-82F6-472758927522}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\jsonfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B12522D4-2510-42B3-82F6-472758927522}|Infrastructure\\Infrastructure.csproj|c:\\users\\alexandr\\desktop\\web\\infrastructure\\repositories\\repositryjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B12522D4-2510-42B3-82F6-472758927522}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\repositryjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A0ECB84-5B15-4361-AFDD-1E5FE8935D0F}|Domain\\Domain.csproj|c:\\users\\alexandr\\desktop\\web\\domain\\modelofsettings\\imageuploaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A0ECB84-5B15-4361-AFDD-1E5FE8935D0F}|Domain\\Domain.csproj|solutionrelative:domain\\modelofsettings\\imageuploaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1D663196-7F63-483D-B37C-8E220D953CC8}|WebApi\\WebApi.csproj|c:\\users\\alexandr\\desktop\\web\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D663196-7F63-483D-B37C-8E220D953CC8}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9F1B992-613C-4F1E-BB24-9A496C24F3B8}|BuisnessLogic\\businessLogic.csproj|c:\\users\\alexandr\\desktop\\web\\buisnesslogic\\services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9F1B992-613C-4F1E-BB24-9A496C24F3B8}|BuisnessLogic\\businessLogic.csproj|solutionrelative:buisnesslogic\\services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A0ECB84-5B15-4361-AFDD-1E5FE8935D0F}|Domain\\Domain.csproj|c:\\users\\alexandr\\desktop\\web\\domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A0ECB84-5B15-4361-AFDD-1E5FE8935D0F}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A0ECB84-5B15-4361-AFDD-1E5FE8935D0F}|Domain\\Domain.csproj|c:\\users\\alexandr\\desktop\\web\\domain\\error\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A0ECB84-5B15-4361-AFDD-1E5FE8935D0F}|Domain\\Domain.csproj|solutionrelative:domain\\error\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -41,122 +57,172 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 215,
-          "SelectedChildIndex": -1,
+          "DockedWidth": 103,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 185,
-          "SelectedChildIndex": 5,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Alexandr\\Desktop\\Web\\WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "WebApi\\Program.cs",
-              "ToolTip": "C:\\Users\\Alexandr\\Desktop\\Web\\WebApi\\Program.cs",
-              "RelativeToolTip": "WebApi\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAgwBkAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T19:18:52.235Z",
-              "IsPinned": true,
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\Alexandr\\Desktop\\Web\\WebApi\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "WebApi\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\Alexandr\\Desktop\\Web\\WebApi\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "WebApi\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACUAAAAYAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "IImageService.cs",
+              "DocumentMoniker": "C:\\Users\\Alexandr\\Desktop\\Web\\BuisnessLogic\\Services\\IImageService.cs",
+              "RelativeDocumentMoniker": "BuisnessLogic\\Services\\IImageService.cs",
+              "ToolTip": "C:\\Users\\Alexandr\\Desktop\\Web\\BuisnessLogic\\Services\\IImageService.cs",
+              "RelativeToolTip": "BuisnessLogic\\Services\\IImageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T19:24:13.164Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Alexandr\\Desktop\\Web\\Domain\\Interfaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\Alexandr\\Desktop\\Web\\Domain\\Interfaces\\IUserRepository.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T19:23:25.055Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IRepositoryWrapper.cs",
-              "DocumentMoniker": "C:\\Users\\Alexandr\\Desktop\\Web\\Domain\\Interfaces\\IRepositoryWrapper.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\IRepositoryWrapper.cs",
-              "ToolTip": "C:\\Users\\Alexandr\\Desktop\\Web\\Domain\\Interfaces\\IRepositoryWrapper.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\IRepositoryWrapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T19:23:19.083Z",
+              "WhenOpened": "2024-09-30T21:47:20.913Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\Alexandr\\Desktop\\Web\\Domain\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\IUserService.cs",
-              "ToolTip": "C:\\Users\\Alexandr\\Desktop\\Web\\Domain\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T19:22:50.282Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Image.cs",
-              "DocumentMoniker": "C:\\Users\\Alexandr\\Desktop\\Web\\WebApi\\Controllers\\Image.cs",
-              "RelativeDocumentMoniker": "WebApi\\Controllers\\Image.cs",
-              "ToolTip": "C:\\Users\\Alexandr\\Desktop\\Web\\WebApi\\Controllers\\Image.cs*",
-              "RelativeToolTip": "WebApi\\Controllers\\Image.cs*",
-              "ViewState": "AgIAACoAAAAAAAAAAAAuwDsAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T19:18:47.886Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Alexandr\\Desktop\\Web\\WebApi\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\Alexandr\\Desktop\\Web\\WebApi\\Controllers\\UserController.cs",
               "RelativeToolTip": "WebApi\\Controllers\\UserController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwBIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T19:18:07.667Z",
+              "WhenOpened": "2024-09-30T21:22:57.151Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
+              "Title": "RepositryJson.cs",
+              "DocumentMoniker": "C:\\Users\\Alexandr\\Desktop\\Web\\Infrastructure\\Repositories\\RepositryJson.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\RepositryJson.cs",
+              "ToolTip": "C:\\Users\\Alexandr\\Desktop\\Web\\Infrastructure\\Repositories\\RepositryJson.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\RepositryJson.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T21:21:41.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IFileOperation.cs",
+              "DocumentMoniker": "C:\\Users\\Alexandr\\Desktop\\Web\\Infrastructure\\IFileOperation.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\IFileOperation.cs",
+              "ToolTip": "C:\\Users\\Alexandr\\Desktop\\Web\\Infrastructure\\IFileOperation.cs",
+              "RelativeToolTip": "Infrastructure\\IFileOperation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T20:36:48.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Alexandr\\Desktop\\Web\\WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Alexandr\\Desktop\\Web\\WebApi\\Program.cs",
+              "RelativeToolTip": "WebApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T20:30:12.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "ImageService.cs",
               "DocumentMoniker": "C:\\Users\\Alexandr\\Desktop\\Web\\BuisnessLogic\\Services\\ImageService.cs",
               "RelativeDocumentMoniker": "BuisnessLogic\\Services\\ImageService.cs",
               "ToolTip": "C:\\Users\\Alexandr\\Desktop\\Web\\BuisnessLogic\\Services\\ImageService.cs",
               "RelativeToolTip": "BuisnessLogic\\Services\\ImageService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAuwAwAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAQwK0AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T13:39:16.969Z",
+              "WhenOpened": "2024-09-30T20:24:50.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ImageController.cs",
+              "DocumentMoniker": "C:\\Users\\Alexandr\\Desktop\\Web\\WebApi\\Controllers\\ImageController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\ImageController.cs",
+              "ToolTip": "C:\\Users\\Alexandr\\Desktop\\Web\\WebApi\\Controllers\\ImageController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\ImageController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwDIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T20:24:35.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "JSONFile.cs",
+              "DocumentMoniker": "C:\\Users\\Alexandr\\Desktop\\Web\\Infrastructure\\JSONFile.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\JSONFile.cs",
+              "ToolTip": "C:\\Users\\Alexandr\\Desktop\\Web\\Infrastructure\\JSONFile.cs",
+              "RelativeToolTip": "Infrastructure\\JSONFile.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAqwEUAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T18:47:56.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Error.cs",
+              "DocumentMoniker": "C:\\Users\\Alexandr\\Desktop\\Web\\Domain\\error\\Error.cs",
+              "RelativeDocumentMoniker": "Domain\\error\\Error.cs",
+              "ToolTip": "C:\\Users\\Alexandr\\Desktop\\Web\\Domain\\error\\Error.cs",
+              "RelativeToolTip": "Domain\\error\\Error.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T13:40:58.134Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 89,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WindowsFileCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Alexandr\\Desktop\\Web\\Infrastructure\\WindowsFileCreate.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\WindowsFileCreate.cs",
+              "ToolTip": "C:\\Users\\Alexandr\\Desktop\\Web\\Infrastructure\\WindowsFileCreate.cs",
+              "RelativeToolTip": "Infrastructure\\WindowsFileCreate.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwBsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T21:25:19.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ImageUploadDto.cs",
+              "DocumentMoniker": "C:\\Users\\Alexandr\\Desktop\\Web\\Domain\\ModelOfSettings\\ImageUploadDto.cs",
+              "RelativeDocumentMoniker": "Domain\\ModelOfSettings\\ImageUploadDto.cs",
+              "ToolTip": "C:\\Users\\Alexandr\\Desktop\\Web\\Domain\\ModelOfSettings\\ImageUploadDto.cs",
+              "RelativeToolTip": "Domain\\ModelOfSettings\\ImageUploadDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T21:07:09.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ImageFile.cs",
+              "DocumentMoniker": "C:\\Users\\Alexandr\\Desktop\\Web\\Infrastructure\\ImageFile.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\ImageFile.cs",
+              "ToolTip": "C:\\Users\\Alexandr\\Desktop\\Web\\Infrastructure\\ImageFile.cs",
+              "RelativeToolTip": "Infrastructure\\ImageFile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T16:35:17.004Z",
               "EditorCaption": ""
             }
           ]

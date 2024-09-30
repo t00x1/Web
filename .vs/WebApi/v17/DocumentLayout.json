@@ -1,82 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\sasha\\Desktop\\Web\\",
+  "WorkspaceRootPath": "C:\\Users\\Alexandr\\Desktop\\Web\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B9F1B992-613C-4F1E-BB24-9A496C24F3B8}|BuisnessLogic\\businessLogic.csproj|c:\\users\\sasha\\desktop\\web\\buisnesslogic\\services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B12522D4-2510-42B3-82F6-472758927522}|Infrastructure\\Infrastructure.csproj|c:\\users\\alexandr\\desktop\\web\\infrastructure\\windowsfilecreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B12522D4-2510-42B3-82F6-472758927522}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\windowsfilecreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9F1B992-613C-4F1E-BB24-9A496C24F3B8}|BuisnessLogic\\businessLogic.csproj|c:\\users\\alexandr\\desktop\\web\\buisnesslogic\\services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9F1B992-613C-4F1E-BB24-9A496C24F3B8}|BuisnessLogic\\businessLogic.csproj|solutionrelative:buisnesslogic\\services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D663196-7F63-483D-B37C-8E220D953CC8}|WebApi\\WebApi.csproj|c:\\users\\sasha\\desktop\\web\\webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D663196-7F63-483D-B37C-8E220D953CC8}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B12522D4-2510-42B3-82F6-472758927522}|Infrastructure\\Infrastructure.csproj|c:\\users\\sasha\\desktop\\web\\infrastructure\\imagefile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B12522D4-2510-42B3-82F6-472758927522}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\imagefile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9F1B992-613C-4F1E-BB24-9A496C24F3B8}|BuisnessLogic\\businessLogic.csproj|c:\\users\\sasha\\desktop\\web\\buisnesslogic\\services\\iimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9F1B992-613C-4F1E-BB24-9A496C24F3B8}|BuisnessLogic\\businessLogic.csproj|c:\\users\\alexandr\\desktop\\web\\buisnesslogic\\services\\iimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9F1B992-613C-4F1E-BB24-9A496C24F3B8}|BuisnessLogic\\businessLogic.csproj|solutionrelative:buisnesslogic\\services\\iimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A0ECB84-5B15-4361-AFDD-1E5FE8935D0F}|Domain\\Domain.csproj|c:\\users\\sasha\\desktop\\web\\domain\\interfaces\\iimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A0ECB84-5B15-4361-AFDD-1E5FE8935D0F}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B12522D4-2510-42B3-82F6-472758927522}|Infrastructure\\Infrastructure.csproj|c:\\users\\alexandr\\desktop\\web\\infrastructure\\ifileoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B12522D4-2510-42B3-82F6-472758927522}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\ifileoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|c:\\users\\sasha\\desktop\\web\\dataacces\\wrapper\\repositorywrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|solutionrelative:dataacces\\wrapper\\repositorywrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1D663196-7F63-483D-B37C-8E220D953CC8}|WebApi\\WebApi.csproj|c:\\users\\alexandr\\desktop\\web\\webapi\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D663196-7F63-483D-B37C-8E220D953CC8}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B12522D4-2510-42B3-82F6-472758927522}|Infrastructure\\Infrastructure.csproj|c:\\users\\sasha\\desktop\\web\\infrastructure\\jsonfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1D663196-7F63-483D-B37C-8E220D953CC8}|WebApi\\WebApi.csproj|c:\\users\\alexandr\\desktop\\web\\webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D663196-7F63-483D-B37C-8E220D953CC8}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B12522D4-2510-42B3-82F6-472758927522}|Infrastructure\\Infrastructure.csproj|c:\\users\\alexandr\\desktop\\web\\infrastructure\\imagefile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B12522D4-2510-42B3-82F6-472758927522}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\imagefile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B12522D4-2510-42B3-82F6-472758927522}|Infrastructure\\Infrastructure.csproj|c:\\users\\alexandr\\desktop\\web\\infrastructure\\jsonfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B12522D4-2510-42B3-82F6-472758927522}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\jsonfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B12522D4-2510-42B3-82F6-472758927522}|Infrastructure\\Infrastructure.csproj|c:\\users\\sasha\\desktop\\web\\infrastructure\\repositories\\repositryjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B12522D4-2510-42B3-82F6-472758927522}|Infrastructure\\Infrastructure.csproj|c:\\users\\alexandr\\desktop\\web\\infrastructure\\repositories\\repositryjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B12522D4-2510-42B3-82F6-472758927522}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\repositryjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A0ECB84-5B15-4361-AFDD-1E5FE8935D0F}|Domain\\Domain.csproj|c:\\users\\sasha\\desktop\\web\\domain\\modelofsettings\\settingsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A0ECB84-5B15-4361-AFDD-1E5FE8935D0F}|Domain\\Domain.csproj|solutionrelative:domain\\modelofsettings\\settingsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A0ECB84-5B15-4361-AFDD-1E5FE8935D0F}|Domain\\Domain.csproj|c:\\users\\alexandr\\desktop\\web\\domain\\modelofsettings\\imageuploaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A0ECB84-5B15-4361-AFDD-1E5FE8935D0F}|Domain\\Domain.csproj|solutionrelative:domain\\modelofsettings\\imageuploaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A0ECB84-5B15-4361-AFDD-1E5FE8935D0F}|Domain\\Domain.csproj|c:\\users\\sasha\\desktop\\web\\domain\\functions\\files\\interfacesabstract\\ifile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A0ECB84-5B15-4361-AFDD-1E5FE8935D0F}|Domain\\Domain.csproj|solutionrelative:domain\\functions\\files\\interfacesabstract\\ifile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D663196-7F63-483D-B37C-8E220D953CC8}|WebApi\\WebApi.csproj|c:\\users\\sasha\\desktop\\web\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1D663196-7F63-483D-B37C-8E220D953CC8}|WebApi\\WebApi.csproj|c:\\users\\alexandr\\desktop\\web\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D663196-7F63-483D-B37C-8E220D953CC8}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D663196-7F63-483D-B37C-8E220D953CC8}|WebApi\\WebApi.csproj|c:\\users\\sasha\\desktop\\web\\webapi\\controllers\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D663196-7F63-483D-B37C-8E220D953CC8}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9F1B992-613C-4F1E-BB24-9A496C24F3B8}|BuisnessLogic\\businessLogic.csproj|c:\\users\\sasha\\desktop\\web\\buisnesslogic\\services\\imageservicedd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9F1B992-613C-4F1E-BB24-9A496C24F3B8}|BuisnessLogic\\businessLogic.csproj|solutionrelative:buisnesslogic\\services\\imageservicedd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D663196-7F63-483D-B37C-8E220D953CC8}|WebApi\\WebApi.csproj|c:\\users\\sasha\\desktop\\web\\webapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D663196-7F63-483D-B37C-8E220D953CC8}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B12522D4-2510-42B3-82F6-472758927522}|Infrastructure\\Infrastructure.csproj|c:\\users\\sasha\\desktop\\web\\infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B12522D4-2510-42B3-82F6-472758927522}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A0ECB84-5B15-4361-AFDD-1E5FE8935D0F}|Domain\\Domain.csproj|c:\\users\\sasha\\desktop\\web\\domain\\error\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1A0ECB84-5B15-4361-AFDD-1E5FE8935D0F}|Domain\\Domain.csproj|c:\\users\\alexandr\\desktop\\web\\domain\\error\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A0ECB84-5B15-4361-AFDD-1E5FE8935D0F}|Domain\\Domain.csproj|solutionrelative:domain\\error\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|c:\\users\\sasha\\desktop\\web\\dataacces\\repositories\\imagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA4F074F-1F74-4764-BD99-2C5B79AE96CE}|DataAcces\\DataAccess.csproj|solutionrelative:dataacces\\repositories\\imagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A0ECB84-5B15-4361-AFDD-1E5FE8935D0F}|Domain\\Domain.csproj|c:\\users\\sasha\\desktop\\web\\domain\\functions\\files\\interfacesabstract\\istructfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A0ECB84-5B15-4361-AFDD-1E5FE8935D0F}|Domain\\Domain.csproj|solutionrelative:domain\\functions\\files\\interfacesabstract\\istructfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D663196-7F63-483D-B37C-8E220D953CC8}|WebApi\\WebApi.csproj|c:\\users\\sasha\\desktop\\web\\webapi\\csettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1D663196-7F63-483D-B37C-8E220D953CC8}|WebApi\\WebApi.csproj|solutionrelative:webapi\\csettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -85,237 +57,173 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 96,
-          "SelectedChildIndex": 13,
+          "DockedWidth": 103,
+          "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IImageService.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\BuisnessLogic\\Services\\IImageService.cs",
-              "RelativeDocumentMoniker": "BuisnessLogic\\Services\\IImageService.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\BuisnessLogic\\Services\\IImageService.cs",
-              "RelativeToolTip": "BuisnessLogic\\Services\\IImageService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T21:39:53.954Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "IImageService.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\Domain\\Interfaces\\IImageService.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\IImageService.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\Domain\\Interfaces\\IImageService.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\IImageService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentMoniker": "C:\\Users\\Alexandr\\Desktop\\Web\\BuisnessLogic\\Services\\IImageService.cs",
+              "RelativeDocumentMoniker": "BuisnessLogic\\Services\\IImageService.cs",
+              "ToolTip": "C:\\Users\\Alexandr\\Desktop\\Web\\BuisnessLogic\\Services\\IImageService.cs",
+              "RelativeToolTip": "BuisnessLogic\\Services\\IImageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T21:39:37.433Z"
+              "WhenOpened": "2024-09-30T21:47:20.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Alexandr\\Desktop\\Web\\WebApi\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Alexandr\\Desktop\\Web\\WebApi\\Controllers\\UserController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T21:22:57.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RepositryJson.cs",
+              "DocumentMoniker": "C:\\Users\\Alexandr\\Desktop\\Web\\Infrastructure\\Repositories\\RepositryJson.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\RepositryJson.cs",
+              "ToolTip": "C:\\Users\\Alexandr\\Desktop\\Web\\Infrastructure\\Repositories\\RepositryJson.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\RepositryJson.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T21:21:41.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IFileOperation.cs",
+              "DocumentMoniker": "C:\\Users\\Alexandr\\Desktop\\Web\\Infrastructure\\IFileOperation.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\IFileOperation.cs",
+              "ToolTip": "C:\\Users\\Alexandr\\Desktop\\Web\\Infrastructure\\IFileOperation.cs",
+              "RelativeToolTip": "Infrastructure\\IFileOperation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T20:36:48.471Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\WebApi\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Alexandr\\Desktop\\Web\\WebApi\\Program.cs",
               "RelativeDocumentMoniker": "WebApi\\Program.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Alexandr\\Desktop\\Web\\WebApi\\Program.cs",
               "RelativeToolTip": "WebApi\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T21:26:14.172Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\WebApi\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "WebApi\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\WebApi\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "WebApi\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAA5wAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T20:07:47.605Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ImageRepository.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Repositories\\ImageRepository.cs",
-              "RelativeDocumentMoniker": "DataAcces\\Repositories\\ImageRepository.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Repositories\\ImageRepository.cs",
-              "RelativeToolTip": "DataAcces\\Repositories\\ImageRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T19:45:41.697Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RepositryJson.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\Infrastructure\\Repositories\\RepositryJson.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\RepositryJson.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\Infrastructure\\Repositories\\RepositryJson.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\RepositryJson.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T19:22:08.935Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RepositoryWrapper.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Wrapper\\RepositoryWrapper.cs",
-              "RelativeDocumentMoniker": "DataAcces\\Wrapper\\RepositoryWrapper.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\Wrapper\\RepositoryWrapper.cs",
-              "RelativeToolTip": "DataAcces\\Wrapper\\RepositoryWrapper.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAA1wB8AAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T19:02:06.209Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "JSONFile.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\Infrastructure\\JSONFile.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\JSONFile.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\Infrastructure\\JSONFile.cs",
-              "RelativeToolTip": "Infrastructure\\JSONFile.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAACAAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T18:47:56.158Z"
+              "WhenOpened": "2024-09-30T20:30:12.682Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\WebApi\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "WebApi\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\WebApi\\Controllers\\UserController.cs",
-              "RelativeToolTip": "WebApi\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAxAAAA",
+              "Title": "ImageService.cs",
+              "DocumentMoniker": "C:\\Users\\Alexandr\\Desktop\\Web\\BuisnessLogic\\Services\\ImageService.cs",
+              "RelativeDocumentMoniker": "BuisnessLogic\\Services\\ImageService.cs",
+              "ToolTip": "C:\\Users\\Alexandr\\Desktop\\Web\\BuisnessLogic\\Services\\ImageService.cs",
+              "RelativeToolTip": "BuisnessLogic\\Services\\ImageService.cs",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAQwK0AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T16:57:45.382Z"
+              "WhenOpened": "2024-09-30T20:24:50.658Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ImageFile.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\Infrastructure\\ImageFile.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\ImageFile.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\Infrastructure\\ImageFile.cs",
-              "RelativeToolTip": "Infrastructure\\ImageFile.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAA1wDQAAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "ImageController.cs",
+              "DocumentMoniker": "C:\\Users\\Alexandr\\Desktop\\Web\\WebApi\\Controllers\\ImageController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\ImageController.cs",
+              "ToolTip": "C:\\Users\\Alexandr\\Desktop\\Web\\WebApi\\Controllers\\ImageController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\ImageController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwDIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T16:35:17.004Z"
+              "WhenOpened": "2024-09-30T20:24:35.143Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\Infrastructure\\Class1.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Class1.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\Infrastructure\\Class1.cs",
-              "RelativeToolTip": "Infrastructure\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "DocumentIndex": 7,
+              "Title": "JSONFile.cs",
+              "DocumentMoniker": "C:\\Users\\Alexandr\\Desktop\\Web\\Infrastructure\\JSONFile.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\JSONFile.cs",
+              "ToolTip": "C:\\Users\\Alexandr\\Desktop\\Web\\Infrastructure\\JSONFile.cs",
+              "RelativeToolTip": "Infrastructure\\JSONFile.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAqwEUAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T16:05:32.925Z"
+              "WhenOpened": "2024-09-29T18:47:56.158Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ImageServicedd.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\BuisnessLogic\\Services\\ImageServicedd.cs",
-              "RelativeDocumentMoniker": "BuisnessLogic\\Services\\ImageServicedd.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\BuisnessLogic\\Services\\ImageServicedd.cs",
-              "RelativeToolTip": "BuisnessLogic\\Services\\ImageServicedd.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T14:02:53.166Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 11,
               "Title": "Error.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\Domain\\error\\Error.cs",
+              "DocumentMoniker": "C:\\Users\\Alexandr\\Desktop\\Web\\Domain\\error\\Error.cs",
               "RelativeDocumentMoniker": "Domain\\error\\Error.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\Domain\\error\\Error.cs",
+              "ToolTip": "C:\\Users\\Alexandr\\Desktop\\Web\\Domain\\error\\Error.cs",
               "RelativeToolTip": "Domain\\error\\Error.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-29T13:40:58.134Z"
-            },
+            }
+          ]
+        },
+        {
+          "DockedWidth": 89,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ImageService.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\BuisnessLogic\\Services\\ImageService.cs",
-              "RelativeDocumentMoniker": "BuisnessLogic\\Services\\ImageService.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\BuisnessLogic\\Services\\ImageService.cs",
-              "RelativeToolTip": "BuisnessLogic\\Services\\ImageService.cs",
-              "ViewState": "AQIAAJ8AAAAAAAAAAADwv54AAAAFAAAA",
+              "Title": "WindowsFileCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Alexandr\\Desktop\\Web\\Infrastructure\\WindowsFileCreate.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\WindowsFileCreate.cs",
+              "ToolTip": "C:\\Users\\Alexandr\\Desktop\\Web\\Infrastructure\\WindowsFileCreate.cs",
+              "RelativeToolTip": "Infrastructure\\WindowsFileCreate.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAkwBsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T12:43:54.731Z",
+              "WhenOpened": "2024-09-30T21:25:19.824Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "IFIle.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\Domain\\Functions\\Files\\InterfacesAbstract\\IFIle.cs",
-              "RelativeDocumentMoniker": "Domain\\Functions\\Files\\InterfacesAbstract\\IFIle.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\Domain\\Functions\\Files\\InterfacesAbstract\\IFIle.cs",
-              "RelativeToolTip": "Domain\\Functions\\Files\\InterfacesAbstract\\IFIle.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAAAFAAAA",
+              "Title": "ImageUploadDto.cs",
+              "DocumentMoniker": "C:\\Users\\Alexandr\\Desktop\\Web\\Domain\\ModelOfSettings\\ImageUploadDto.cs",
+              "RelativeDocumentMoniker": "Domain\\ModelOfSettings\\ImageUploadDto.cs",
+              "ToolTip": "C:\\Users\\Alexandr\\Desktop\\Web\\Domain\\ModelOfSettings\\ImageUploadDto.cs",
+              "RelativeToolTip": "Domain\\ModelOfSettings\\ImageUploadDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T11:36:28.033Z"
+              "WhenOpened": "2024-09-30T21:07:09.53Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "IStructFile.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\Domain\\Functions\\Files\\InterfacesAbstract\\IStructFile.cs",
-              "RelativeDocumentMoniker": "Domain\\Functions\\Files\\InterfacesAbstract\\IStructFile.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\Domain\\Functions\\Files\\InterfacesAbstract\\IStructFile.cs",
-              "RelativeToolTip": "Domain\\Functions\\Files\\InterfacesAbstract\\IStructFile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAVAAAA",
+              "DocumentIndex": 6,
+              "Title": "ImageFile.cs",
+              "DocumentMoniker": "C:\\Users\\Alexandr\\Desktop\\Web\\Infrastructure\\ImageFile.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\ImageFile.cs",
+              "ToolTip": "C:\\Users\\Alexandr\\Desktop\\Web\\Infrastructure\\ImageFile.cs",
+              "RelativeToolTip": "Infrastructure\\ImageFile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T10:52:03.613Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Csettings.json",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\WebApi\\Csettings.json",
-              "RelativeDocumentMoniker": "WebApi\\Csettings.json",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\WebApi\\Csettings.json",
-              "RelativeToolTip": "WebApi\\Csettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-29T10:04:37.989Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Image.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\WebApi\\Controllers\\Image.cs",
-              "RelativeDocumentMoniker": "WebApi\\Controllers\\Image.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\WebApi\\Controllers\\Image.cs",
-              "RelativeToolTip": "WebApi\\Controllers\\Image.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAArwDUAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T19:18:47.886Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SettingsModel.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\Web\\Domain\\ModelOfSettings\\SettingsModel.cs",
-              "RelativeDocumentMoniker": "Domain\\ModelOfSettings\\SettingsModel.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\Web\\Domain\\ModelOfSettings\\SettingsModel.cs",
-              "RelativeToolTip": "Domain\\ModelOfSettings\\SettingsModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T22:20:35.18Z"
+              "WhenOpened": "2024-09-29T16:35:17.004Z",
+              "EditorCaption": ""
             }
           ]
         }

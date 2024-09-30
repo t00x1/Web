@@ -4162,19 +4162,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sasha\\.nuget\\packages\\": {}
+    "C:\\Users\\Alexandr\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\Alexandr\\Desktop\\Web\\DataAcces\\DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\DataAccess.csproj",
-      "packagesPath": "C:\\Users\\sasha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\obj\\",
+      "projectPath": "C:\\Users\\Alexandr\\Desktop\\Web\\DataAcces\\DataAccess.csproj",
+      "packagesPath": "C:\\Users\\Alexandr\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Alexandr\\Desktop\\Web\\DataAcces\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Alexandr\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4189,8 +4189,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\sasha\\Desktop\\Web\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\sasha\\Desktop\\Web\\Domain\\Domain.csproj"
+            "C:\\Users\\Alexandr\\Desktop\\Web\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Alexandr\\Desktop\\Web\\Domain\\Domain.csproj"
             }
           }
         }
@@ -4243,7 +4243,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

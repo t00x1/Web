@@ -36,16 +36,17 @@ public class ImageController : ControllerBase
     {
         using (var memoryStream = new MemoryStream())
         {
-            await file.CopyToAsync(memoryStream);
+              await file.CopyToAsync(memoryStream);
+            memoryStream.Position = 0; // Сбрасываем позицию потока???
 
-            var imageUploadDto = new ImageUploadDto
+            ImageUploadDto imageUploadDto = new ImageUploadDto
             {
                 FileName = file.FileName,
-                Content = memoryStream.ToArray(),
+                Content = file.OpenReadStream(),
                 Size = file.Length // Получаем размер файла
             };
 
-            imageService.UploadImageAsync(imageUploadDto);
+          if (! await  imageService.UploadImageAsync(imageUploadDto)) return BadRequest("говно");
             /*if (result.Success)
             {
                 return Ok(new { Message = "Файл успешно загружен." });

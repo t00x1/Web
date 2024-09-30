@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sasha\\Desktop\\Web\\WebApi\\WebApi.csproj": {}
+    "C:\\Users\\Alexandr\\Desktop\\Web\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sasha\\Desktop\\Web\\BuisnessLogic\\businessLogic.csproj": {
+    "C:\\Users\\Alexandr\\Desktop\\Web\\BuisnessLogic\\businessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sasha\\Desktop\\Web\\BuisnessLogic\\businessLogic.csproj",
+        "projectUniqueName": "C:\\Users\\Alexandr\\Desktop\\Web\\BuisnessLogic\\businessLogic.csproj",
         "projectName": "businessLogic",
-        "projectPath": "C:\\Users\\sasha\\Desktop\\Web\\BuisnessLogic\\businessLogic.csproj",
-        "packagesPath": "C:\\Users\\sasha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sasha\\Desktop\\Web\\BuisnessLogic\\obj\\",
+        "projectPath": "C:\\Users\\Alexandr\\Desktop\\Web\\BuisnessLogic\\businessLogic.csproj",
+        "packagesPath": "C:\\Users\\Alexandr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alexandr\\Desktop\\Web\\BuisnessLogic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alexandr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,14 +29,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\DataAccess.csproj"
+              "C:\\Users\\Alexandr\\Desktop\\Web\\DataAcces\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Alexandr\\Desktop\\Web\\DataAcces\\DataAccess.csproj"
               },
-              "C:\\Users\\sasha\\Desktop\\Web\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\sasha\\Desktop\\Web\\Domain\\Domain.csproj"
+              "C:\\Users\\Alexandr\\Desktop\\Web\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Alexandr\\Desktop\\Web\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\sasha\\Desktop\\Web\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\sasha\\Desktop\\Web\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\Alexandr\\Desktop\\Web\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Alexandr\\Desktop\\Web\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -93,21 +93,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\DataAccess.csproj": {
+    "C:\\Users\\Alexandr\\Desktop\\Web\\DataAcces\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Alexandr\\Desktop\\Web\\DataAcces\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\sasha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sasha\\Desktop\\Web\\DataAcces\\obj\\",
+        "projectPath": "C:\\Users\\Alexandr\\Desktop\\Web\\DataAcces\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Alexandr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alexandr\\Desktop\\Web\\DataAcces\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alexandr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -122,8 +122,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\sasha\\Desktop\\Web\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\sasha\\Desktop\\Web\\Domain\\Domain.csproj"
+              "C:\\Users\\Alexandr\\Desktop\\Web\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Alexandr\\Desktop\\Web\\Domain\\Domain.csproj"
               }
             }
           }
@@ -176,21 +176,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\sasha\\Desktop\\Web\\Domain\\Domain.csproj": {
+    "C:\\Users\\Alexandr\\Desktop\\Web\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sasha\\Desktop\\Web\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Alexandr\\Desktop\\Web\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\sasha\\Desktop\\Web\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\sasha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sasha\\Desktop\\Web\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\Alexandr\\Desktop\\Web\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Alexandr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alexandr\\Desktop\\Web\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alexandr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -259,21 +259,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\sasha\\Desktop\\Web\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\Alexandr\\Desktop\\Web\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sasha\\Desktop\\Web\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Alexandr\\Desktop\\Web\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\sasha\\Desktop\\Web\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\sasha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sasha\\Desktop\\Web\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\Alexandr\\Desktop\\Web\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Alexandr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alexandr\\Desktop\\Web\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alexandr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -288,8 +288,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\sasha\\Desktop\\Web\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\sasha\\Desktop\\Web\\Domain\\Domain.csproj"
+              "C:\\Users\\Alexandr\\Desktop\\Web\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Alexandr\\Desktop\\Web\\Domain\\Domain.csproj"
               }
             }
           }
@@ -324,21 +324,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\sasha\\Desktop\\Web\\WebApi\\WebApi.csproj": {
+    "C:\\Users\\Alexandr\\Desktop\\Web\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sasha\\Desktop\\Web\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\Alexandr\\Desktop\\Web\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "C:\\Users\\sasha\\Desktop\\Web\\WebApi\\WebApi.csproj",
-        "packagesPath": "C:\\Users\\sasha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sasha\\Desktop\\Web\\WebApi\\obj\\",
+        "projectPath": "C:\\Users\\Alexandr\\Desktop\\Web\\WebApi\\WebApi.csproj",
+        "packagesPath": "C:\\Users\\Alexandr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alexandr\\Desktop\\Web\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alexandr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -353,8 +353,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\sasha\\Desktop\\Web\\BuisnessLogic\\businessLogic.csproj": {
-                "projectPath": "C:\\Users\\sasha\\Desktop\\Web\\BuisnessLogic\\businessLogic.csproj"
+              "C:\\Users\\Alexandr\\Desktop\\Web\\BuisnessLogic\\businessLogic.csproj": {
+                "projectPath": "C:\\Users\\Alexandr\\Desktop\\Web\\BuisnessLogic\\businessLogic.csproj"
               }
             }
           }
@@ -404,7 +404,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

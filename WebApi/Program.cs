@@ -19,7 +19,7 @@ builder.Services.AddCors(options =>
 });
 
 builder.Services.AddDbContext<Inspireo>(option =>
-    option.UseSqlServer("Server=DESKTOP-3F0EBO4;Database=Pinterest;Trusted_Connection=True;TrustServerCertificate=True"));
+    option.UseSqlServer("Server=DESKTOP-T6LU3PA;Database=Pinterest;Trusted_Connection=True;TrustServerCertificate=True"));
 
 builder.Services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
 builder.Services.AddScoped<IUserService, UserService>();

@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Domain.Models
+namespace Domain.ModelOfSettings
 {
-     public class ImageUploadDto
+    public class ImageUploadDto
     {
         public string FileName { get; set; }
-        public byte[] Content { get; set; }
+        public Stream Content { get; set; }
         public long Size { get; set; }
     }
 }

@@ -150,7 +150,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Infrastructure.Repositories;
 using Domain.error;
-using Domain.Models;
+using Infrastructure;
 using businessLogic.Services;
 
 namespace businessLogic.Service
@@ -167,18 +167,27 @@ namespace businessLogic.Service
         public long? MaxLength { get; } = new RepositoryJson<SettingsModel>("./Csettings.json").GetModel().MaxLengthOfImage;
         private readonly string[] allowedExtension = { ".png", ".jpg", ".jpeg" };
         string _extension;
-        public void UploadImageAsync(ImageUploadDto file)
+        public async Task<bool> UploadImageAsync(ImageUploadDto file)
             
         {
             _extension = Path.GetExtension(file.FileName);
-            if (file == null || file.Size > MaxLength || file.Size == 0 || !CheckExtension(ref _extension))
+            if (file == null || file.Size < MaxLength || file.Size != 0 || !CheckExtension(ref _extension))
             {
-                return; 
+
+                var fileCreator = new WindowsFileCreate();
+
+                // Теперь вызываем метод SaveFileFromStream, используя экземпляр
+                bool test = await fileCreator.SaveFileFromStream(file.Content, "../../Images", file.FileName);
+
+                return true; 
+
+
             }
+            return false;
 
 
 
-            return;
+            
 
         }
         }

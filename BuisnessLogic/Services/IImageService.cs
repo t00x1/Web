@@ -1,4 +1,4 @@
-﻿using Domain.Models;
+﻿using Domain.ModelOfSettings;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +9,6 @@ namespace businessLogic.Services
 {
     public interface IImageService
     {
-        public void UploadImageAsync(ImageUploadDto file);
+        public Task<bool> UploadImageAsync(ImageUploadDto file);
     }
 }
