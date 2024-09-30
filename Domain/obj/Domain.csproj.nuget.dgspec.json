@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alexandr\\Desktop\\Web\\Domain\\Domain.csproj": {}
+    "C:\\Users\\sasha\\Desktop\\Web\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alexandr\\Desktop\\Web\\Domain\\Domain.csproj": {
+    "C:\\Users\\sasha\\Desktop\\Web\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alexandr\\Desktop\\Web\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\sasha\\Desktop\\Web\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Alexandr\\Desktop\\Web\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Alexandr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alexandr\\Desktop\\Web\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\sasha\\Desktop\\Web\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\sasha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sasha\\Desktop\\Web\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Alexandr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -46,6 +46,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -79,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

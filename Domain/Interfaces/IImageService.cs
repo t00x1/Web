@@ -1,17 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿/*using System.Threading.Tasks;
 using Domain.Models;
+using Microsoft.AspNetCore.Http;
 
 namespace Domain.Interfaces
 {
     public interface IImageService
     {
-        Task CreateNewImage(Image Model);
+        Task CreateNewImage(Image model);
         Task EditImage(int id);
         Task<Image> GetImage(int id);
        
     }
 }
+*/

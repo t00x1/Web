@@ -2,62 +2,99 @@
 using System.IO;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
-using Microsoft.Extensions.FileProviders;
+using System.Text.Json;
 using Domain.Interfaces;
+/*using Infrastructure.FileManagement;*/
+using businessLogic.Services;
 
+using Domain.ModelOfSettings;
+using Domain.Functions.Files.InterfacesAbstract;
+
+
+using Domain.error;
+using businessLogic.Service;
+using Domain.Models;
 [Route("api/[controller]")]
 [ApiController]
 public class ImageController : ControllerBase
 {
-    private readonly IImageService _fileProvider;
+   // private readonly IImageService _fileProvider;
+    ImageService imageService;
 
-    // Конструктор класса
-    
+
     public ImageController(IImageService fileProvider)
     {
-        _fileProvider = fileProvider;
+        // _fileProvider = fileProvider;
+        imageService = new ImageService();
     }
 
-    /// <summary>
-    /// Загружает файл на сервер
-    /// </summary>
-    /// <param name="file">Файл для загрузки</param>
-    /// <returns>Информация о загруженном файле</returns>
+
+
+
     [HttpPost("upload")]
     public async Task<IActionResult> UploadFile(IFormFile file)
     {
-        Console.WriteLine(file.Headers);
-
-        if (file == null || file.Length == 0)
-            return BadRequest("Файл не был загружен или пуст.");
-
-        /*// Получаем путь к директории через провайдер файлов
-        var fileInfo = _fileProvider.GetFileInfo("uploads");
-
-        // Создаем папку, если она не существует
-        if (!Directory.Exists(fileInfo.PhysicalPath))
+        using (var memoryStream = new MemoryStream())
         {
-            Console.WriteLine("dir is not exist");
-            Directory.CreateDirectory(fileInfo.PhysicalPath);
+            await file.CopyToAsync(memoryStream);
+
+            var imageUploadDto = new ImageUploadDto
+            {
+                FileName = file.FileName,
+                Content = memoryStream.ToArray(),
+                Size = file.Length // Получаем размер файла
+            };
+
+            imageService.UploadImageAsync(imageUploadDto);
+            /*if (result.Success)
+            {
+                return Ok(new { Message = "Файл успешно загружен." });
+            }*/
+            /* return BadRequest(new { Message = result.ErrorMessage });*/
+            return Ok();
         }
 
-        // Уникальное имя файла
-        var fileName = Path.GetFileName(file.FileName);
-        var filePath = Path.Combine(fileInfo.PhysicalPath, fileName);
 
-        // Сохраняем файл в директорию
-        using (var stream = new FileStream(filePath, FileMode.Create))
+
+
+        /*if (file == null || file.Length == 0)
         {
-            await file.CopyToAsync(stream);
-        }*/
+            return BadRequest(new { ErrorCode = Codes.ErrorCode.EmptyFile, Message = "Файл не был загружен или пуст." });
+        }
 
-        return Ok(new { message = "Файл успешно загружен",/* fileName = fileName */});
+        IFile imageFile = new ImageFile(file);
+
+        try
+        {
+            bool uploadResult = await imageFile.Upload();
+
+            if (uploadResult)
+            {
+                return Ok(new { Message = "Файл успешно загружен." });
+            }
+            else
+            {
+                return StatusCode((int)Codes.ErrorCode.ServerError, new { ErrorCode = Codes.ErrorCode.ServerError, Message = "Произошла ошибка при загрузке файла." });
+            }
+        }
+        catch (FileNotFoundException ex)
+        {
+            return NotFound(new { ErrorCode = Codes.ErrorCode.FileNotFound, Message = $"Файл не найден: {ex.Message}" });
+        }
+        catch (IOException ex)
+        {
+            return StatusCode((int)Codes.ErrorCode.ServerError, new { ErrorCode = Codes.ErrorCode.ServerError, Message = $"Ошибка ввода-вывода: {ex.Message}" });
+        }
+        catch (Exception ex)
+        {
+            return StatusCode((int)Codes.ErrorCode.ServerError, new { ErrorCode = Codes.ErrorCode.ServerError, Message = $"Произошла ошибка: {ex.Message}" });
+        }*/
+        return Ok();
     }
-    
-    [HttpGet]
+
+        [HttpGet]
     public async Task<IActionResult> Test()
     {
-        return Ok(new int { 1, 2 });
+        return Ok(new int[] { 1, 3 });
     }
-
 }
