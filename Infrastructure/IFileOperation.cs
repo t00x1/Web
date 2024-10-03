@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,7 +9,7 @@ namespace Infrastructure
 {
     public interface IFileOperation
     {
-        public Task<bool> SaveFileFromStream(Stream stream, string path, string name);
+        public Task SaveFileFromStream(Stream stream, string extension, string name, string path);
 
     }
 }

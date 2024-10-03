@@ -4598,19 +4598,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Alexandr\\.nuget\\packages\\": {}
+    "C:\\Users\\sasha\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alexandr\\Desktop\\Web\\WebApi\\WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\sasha\\Desktop\\Web\\WebApi\\WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "C:\\Users\\Alexandr\\Desktop\\Web\\WebApi\\WebApi.csproj",
-      "packagesPath": "C:\\Users\\Alexandr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alexandr\\Desktop\\Web\\WebApi\\obj\\",
+      "projectPath": "C:\\Users\\sasha\\Desktop\\Web\\WebApi\\WebApi.csproj",
+      "packagesPath": "C:\\Users\\sasha\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sasha\\Desktop\\Web\\WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Alexandr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4625,8 +4625,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Alexandr\\Desktop\\Web\\BuisnessLogic\\businessLogic.csproj": {
-              "projectPath": "C:\\Users\\Alexandr\\Desktop\\Web\\BuisnessLogic\\businessLogic.csproj"
+            "C:\\Users\\sasha\\Desktop\\Web\\BuisnessLogic\\businessLogic.csproj": {
+              "projectPath": "C:\\Users\\sasha\\Desktop\\Web\\BuisnessLogic\\businessLogic.csproj"
             }
           }
         }
@@ -4676,7 +4676,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

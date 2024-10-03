@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Infrastructure.Utilities;
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,15 +10,18 @@ namespace Infrastructure
 {
     public class WindowsFileCreate : IFileOperation
     {
-        public async Task<bool> SaveFileFromStream(Stream stream, string path, string name)
+        public async Task SaveFileFromStream(Stream stream, string extension, string name, string path = "/")
         {
             try
             {
                 if (!Directory.Exists(path))
                 {
                     Directory.CreateDirectory(path);
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine($"server: Директория была создана {path}");
+                    Console.ResetColor();
                 };
-                var filePath = Path.Combine(path, Guid.NewGuid().ToString()  + name);
+                var filePath = Path.Combine(path, name + extension);
 
             
                 using (var fileStream = new FileStream(filePath, FileMode.Create, FileAccess.Write))
@@ -25,15 +30,15 @@ namespace Infrastructure
                     await stream.CopyToAsync(fileStream);
 
                 }
-                Console.WriteLine("Норм");
-                return true;
+                
 
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
-                Console.WriteLine("Ошибка");
-                return false;
+                Console.WriteLine($"Ошибка: {ex.Message}");
+                throw;  
             }
+
         }
     }
 }
