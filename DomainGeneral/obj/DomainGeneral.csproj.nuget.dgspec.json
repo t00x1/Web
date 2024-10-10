@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sasha\\source\\repos\\BackendAPI\\DomainGeneral\\DomainGeneral.csproj": {}
+    "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainGeneral\\DomainGeneral.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sasha\\source\\repos\\BackendAPI\\DomainGeneral\\DomainGeneral.csproj": {
+    "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainGeneral\\DomainGeneral.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sasha\\source\\repos\\BackendAPI\\DomainGeneral\\DomainGeneral.csproj",
+        "projectUniqueName": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainGeneral\\DomainGeneral.csproj",
         "projectName": "DomainGeneral",
-        "projectPath": "C:\\Users\\sasha\\source\\repos\\BackendAPI\\DomainGeneral\\DomainGeneral.csproj",
+        "projectPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainGeneral\\DomainGeneral.csproj",
         "packagesPath": "C:\\Users\\sasha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sasha\\source\\repos\\BackendAPI\\DomainGeneral\\obj\\",
+        "outputPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainGeneral\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,18 +45,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[8.0.10, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.10, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

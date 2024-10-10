@@ -1495,6 +1495,32 @@
             "rid": "win"
           }
         }
+      },
+      "DataAccessGeneral/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "DomainGeneral": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DataAccessGeneral.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccessGeneral.dll": {}
+        }
+      },
+      "DomainGeneral/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.10"
+        },
+        "compile": {
+          "bin/placeholder/DomainGeneral.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DomainGeneral.dll": {}
+        }
       }
     }
   },
@@ -4030,10 +4056,21 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "DataAccessGeneral/1.0.0": {
+      "type": "project",
+      "path": "../DataAccessGeneral/DataAccessGeneral.csproj",
+      "msbuildProject": "../DataAccessGeneral/DataAccessGeneral.csproj"
+    },
+    "DomainGeneral/1.0.0": {
+      "type": "project",
+      "path": "../DomainGeneral/DomainGeneral.csproj",
+      "msbuildProject": "../DomainGeneral/DomainGeneral.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "DataAccessGeneral >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 8.0.10",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.10",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.10"
@@ -4045,11 +4082,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sasha\\source\\repos\\BackendAPI\\DataAccessRegistration\\DataAccessRegistration.csproj",
+      "projectUniqueName": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DataAccessRegistration\\DataAccessRegistration.csproj",
       "projectName": "DataAccessRegistration",
-      "projectPath": "C:\\Users\\sasha\\source\\repos\\BackendAPI\\DataAccessRegistration\\DataAccessRegistration.csproj",
+      "projectPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DataAccessRegistration\\DataAccessRegistration.csproj",
       "packagesPath": "C:\\Users\\sasha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sasha\\source\\repos\\BackendAPI\\DataAccessRegistration\\obj\\",
+      "outputPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DataAccessRegistration\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4066,7 +4103,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\sasha\\Desktop\\BackendAPI\\DataAccessGeneral\\DataAccessGeneral.csproj": {
+              "projectPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DataAccessGeneral\\DataAccessGeneral.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

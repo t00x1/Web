@@ -4,7 +4,7 @@ using DomainGeneral.Interfaces.Repository.DataAccess;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace DataAccess.Repository
+namespace DataAccessGeneral.Repository
 {
     public class RepositoryBase<T> : IRepositoryBase<T> where T : class
     {

@@ -1074,6 +1074,21 @@
           }
         }
       },
+      "BusinessLogicRegistration/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "DomainGeneral": "1.0.0",
+          "DomainRegistration": "1.0.0",
+          "InfrastructureGeneral": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BusinessLogicRegistration.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BusinessLogicRegistration.dll": {}
+        }
+      },
       "DataAccessGeneral/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -1088,17 +1103,56 @@
           "bin/placeholder/DataAccessGeneral.dll": {}
         }
       },
-      "DomainGeneral/1.0.0": {
+      "DataAccesss/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "DomainGeneral": "1.0.0",
+          "DomainRegistration": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.10"
         },
+        "compile": {
+          "bin/placeholder/DataAccesss.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccesss.dll": {}
+        }
+      },
+      "DomainGeneral/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
           "bin/placeholder/DomainGeneral.dll": {}
         },
         "runtime": {
           "bin/placeholder/DomainGeneral.dll": {}
+        }
+      },
+      "DomainRegistration/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "DataAccessGeneral": "1.0.0",
+          "DomainGeneral": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DomainRegistration.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DomainRegistration.dll": {}
+        }
+      },
+      "InfrastructureGeneral/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "DomainGeneral": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/InfrastructureGeneral.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InfrastructureGeneral.dll": {}
         }
       }
     }
@@ -3184,21 +3238,42 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "BusinessLogicRegistration/1.0.0": {
+      "type": "project",
+      "path": "../BusinessLogicRegistration/BusinessLogicRegistration.csproj",
+      "msbuildProject": "../BusinessLogicRegistration/BusinessLogicRegistration.csproj"
+    },
     "DataAccessGeneral/1.0.0": {
       "type": "project",
-      "path": "../DataAccess/DataAccessGeneral.csproj",
-      "msbuildProject": "../DataAccess/DataAccessGeneral.csproj"
+      "path": "../DataAccessGeneral/DataAccessGeneral.csproj",
+      "msbuildProject": "../DataAccessGeneral/DataAccessGeneral.csproj"
+    },
+    "DataAccesss/1.0.0": {
+      "type": "project",
+      "path": "../DataAccesss/DataAccesss.csproj",
+      "msbuildProject": "../DataAccesss/DataAccesss.csproj"
     },
     "DomainGeneral/1.0.0": {
       "type": "project",
       "path": "../DomainGeneral/DomainGeneral.csproj",
       "msbuildProject": "../DomainGeneral/DomainGeneral.csproj"
+    },
+    "DomainRegistration/1.0.0": {
+      "type": "project",
+      "path": "../DomainRegistration/DomainRegistration.csproj",
+      "msbuildProject": "../DomainRegistration/DomainRegistration.csproj"
+    },
+    "InfrastructureGeneral/1.0.0": {
+      "type": "project",
+      "path": "../InfrastructureGeneral/InfrastructureGeneral.csproj",
+      "msbuildProject": "../InfrastructureGeneral/InfrastructureGeneral.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "DataAccessGeneral >= 1.0.0",
-      "DomainGeneral >= 1.0.0",
+      "BusinessLogicRegistration >= 1.0.0",
+      "DataAccesss >= 1.0.0",
+      "DomainRegistration >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
   },
@@ -3208,11 +3283,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sasha\\source\\repos\\BackendAPI\\RegistrationAPI\\RegistrationAPI.csproj",
+      "projectUniqueName": "C:\\Users\\sasha\\Desktop\\BackendAPI\\RegistrationAPI\\RegistrationAPI.csproj",
       "projectName": "RegistrationAPI",
-      "projectPath": "C:\\Users\\sasha\\source\\repos\\BackendAPI\\RegistrationAPI\\RegistrationAPI.csproj",
+      "projectPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\RegistrationAPI\\RegistrationAPI.csproj",
       "packagesPath": "C:\\Users\\sasha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sasha\\source\\repos\\BackendAPI\\RegistrationAPI\\obj\\",
+      "outputPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\RegistrationAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3230,11 +3305,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\sasha\\source\\repos\\BackendAPI\\DataAccess\\DataAccessGeneral.csproj": {
-              "projectPath": "C:\\Users\\sasha\\source\\repos\\BackendAPI\\DataAccess\\DataAccessGeneral.csproj"
+            "C:\\Users\\sasha\\Desktop\\BackendAPI\\BusinessLogicRegistration\\BusinessLogicRegistration.csproj": {
+              "projectPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\BusinessLogicRegistration\\BusinessLogicRegistration.csproj"
             },
-            "C:\\Users\\sasha\\source\\repos\\BackendAPI\\DomainGeneral\\DomainGeneral.csproj": {
-              "projectPath": "C:\\Users\\sasha\\source\\repos\\BackendAPI\\DomainGeneral\\DomainGeneral.csproj"
+            "C:\\Users\\sasha\\Desktop\\BackendAPI\\DataAccesss\\DataAccesss.csproj": {
+              "projectPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DataAccesss\\DataAccesss.csproj"
+            },
+            "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainRegistration\\DomainRegistration.csproj": {
+              "projectPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainRegistration\\DomainRegistration.csproj"
             }
           }
         }

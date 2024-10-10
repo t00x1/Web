@@ -12,6 +12,8 @@
 
         public string? Patronymic { get; set; }
 
+        public string? Password { get; set; }
+
         public string? Bio { get; set; }
 
         public bool Admin { get; set; }

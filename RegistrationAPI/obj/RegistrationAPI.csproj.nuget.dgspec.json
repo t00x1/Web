@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sasha\\source\\repos\\BackendAPI\\RegistrationAPI\\RegistrationAPI.csproj": {}
+    "C:\\Users\\sasha\\Desktop\\BackendAPI\\RegistrationAPI\\RegistrationAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sasha\\source\\repos\\BackendAPI\\DataAccess\\DataAccessGeneral.csproj": {
+    "C:\\Users\\sasha\\Desktop\\BackendAPI\\BusinessLogicRegistration\\BusinessLogicRegistration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sasha\\source\\repos\\BackendAPI\\DataAccess\\DataAccessGeneral.csproj",
-        "projectName": "DataAccessGeneral",
-        "projectPath": "C:\\Users\\sasha\\source\\repos\\BackendAPI\\DataAccess\\DataAccessGeneral.csproj",
+        "projectUniqueName": "C:\\Users\\sasha\\Desktop\\BackendAPI\\BusinessLogicRegistration\\BusinessLogicRegistration.csproj",
+        "projectName": "BusinessLogicRegistration",
+        "projectPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\BusinessLogicRegistration\\BusinessLogicRegistration.csproj",
         "packagesPath": "C:\\Users\\sasha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sasha\\source\\repos\\BackendAPI\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\BusinessLogicRegistration\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,79 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\sasha\\source\\repos\\BackendAPI\\DomainGeneral\\DomainGeneral.csproj": {
-                "projectPath": "C:\\Users\\sasha\\source\\repos\\BackendAPI\\DomainGeneral\\DomainGeneral.csproj"
+              "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainGeneral\\DomainGeneral.csproj": {
+                "projectPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainGeneral\\DomainGeneral.csproj"
+              },
+              "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainRegistration\\DomainRegistration.csproj": {
+                "projectPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainRegistration\\DomainRegistration.csproj"
+              },
+              "C:\\Users\\sasha\\Desktop\\BackendAPI\\InfrastructureGeneral\\InfrastructureGeneral.csproj": {
+                "projectPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\InfrastructureGeneral\\InfrastructureGeneral.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sasha\\Desktop\\BackendAPI\\DataAccessGeneral\\DataAccessGeneral.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DataAccessGeneral\\DataAccessGeneral.csproj",
+        "projectName": "DataAccessGeneral",
+        "projectPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DataAccessGeneral\\DataAccessGeneral.csproj",
+        "packagesPath": "C:\\Users\\sasha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DataAccessGeneral\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainGeneral\\DomainGeneral.csproj": {
+                "projectPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainGeneral\\DomainGeneral.csproj"
               }
             }
           }
@@ -81,14 +152,14 @@
         }
       }
     },
-    "C:\\Users\\sasha\\source\\repos\\BackendAPI\\DomainGeneral\\DomainGeneral.csproj": {
+    "C:\\Users\\sasha\\Desktop\\BackendAPI\\DataAccesss\\DataAccesss.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sasha\\source\\repos\\BackendAPI\\DomainGeneral\\DomainGeneral.csproj",
-        "projectName": "DomainGeneral",
-        "projectPath": "C:\\Users\\sasha\\source\\repos\\BackendAPI\\DomainGeneral\\DomainGeneral.csproj",
+        "projectUniqueName": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DataAccesss\\DataAccesss.csproj",
+        "projectName": "DataAccesss",
+        "projectPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DataAccesss\\DataAccesss.csproj",
         "packagesPath": "C:\\Users\\sasha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sasha\\source\\repos\\BackendAPI\\DomainGeneral\\obj\\",
+        "outputPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DataAccesss\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -105,7 +176,14 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainGeneral\\DomainGeneral.csproj": {
+                "projectPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainGeneral\\DomainGeneral.csproj"
+              },
+              "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainRegistration\\DomainRegistration.csproj": {
+                "projectPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainRegistration\\DomainRegistration.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -154,14 +232,75 @@
         }
       }
     },
-    "C:\\Users\\sasha\\source\\repos\\BackendAPI\\RegistrationAPI\\RegistrationAPI.csproj": {
+    "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainGeneral\\DomainGeneral.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sasha\\source\\repos\\BackendAPI\\RegistrationAPI\\RegistrationAPI.csproj",
-        "projectName": "RegistrationAPI",
-        "projectPath": "C:\\Users\\sasha\\source\\repos\\BackendAPI\\RegistrationAPI\\RegistrationAPI.csproj",
+        "projectUniqueName": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainGeneral\\DomainGeneral.csproj",
+        "projectName": "DomainGeneral",
+        "projectPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainGeneral\\DomainGeneral.csproj",
         "packagesPath": "C:\\Users\\sasha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sasha\\source\\repos\\BackendAPI\\RegistrationAPI\\obj\\",
+        "outputPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainGeneral\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainRegistration\\DomainRegistration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainRegistration\\DomainRegistration.csproj",
+        "projectName": "DomainRegistration",
+        "projectPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainRegistration\\DomainRegistration.csproj",
+        "packagesPath": "C:\\Users\\sasha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainRegistration\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -179,11 +318,147 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\sasha\\source\\repos\\BackendAPI\\DataAccess\\DataAccessGeneral.csproj": {
-                "projectPath": "C:\\Users\\sasha\\source\\repos\\BackendAPI\\DataAccess\\DataAccessGeneral.csproj"
+              "C:\\Users\\sasha\\Desktop\\BackendAPI\\DataAccessGeneral\\DataAccessGeneral.csproj": {
+                "projectPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DataAccessGeneral\\DataAccessGeneral.csproj"
               },
-              "C:\\Users\\sasha\\source\\repos\\BackendAPI\\DomainGeneral\\DomainGeneral.csproj": {
-                "projectPath": "C:\\Users\\sasha\\source\\repos\\BackendAPI\\DomainGeneral\\DomainGeneral.csproj"
+              "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainGeneral\\DomainGeneral.csproj": {
+                "projectPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainGeneral\\DomainGeneral.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sasha\\Desktop\\BackendAPI\\InfrastructureGeneral\\InfrastructureGeneral.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sasha\\Desktop\\BackendAPI\\InfrastructureGeneral\\InfrastructureGeneral.csproj",
+        "projectName": "InfrastructureGeneral",
+        "projectPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\InfrastructureGeneral\\InfrastructureGeneral.csproj",
+        "packagesPath": "C:\\Users\\sasha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\InfrastructureGeneral\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainGeneral\\DomainGeneral.csproj": {
+                "projectPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainGeneral\\DomainGeneral.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sasha\\Desktop\\BackendAPI\\RegistrationAPI\\RegistrationAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sasha\\Desktop\\BackendAPI\\RegistrationAPI\\RegistrationAPI.csproj",
+        "projectName": "RegistrationAPI",
+        "projectPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\RegistrationAPI\\RegistrationAPI.csproj",
+        "packagesPath": "C:\\Users\\sasha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\RegistrationAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\sasha\\Desktop\\BackendAPI\\BusinessLogicRegistration\\BusinessLogicRegistration.csproj": {
+                "projectPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\BusinessLogicRegistration\\BusinessLogicRegistration.csproj"
+              },
+              "C:\\Users\\sasha\\Desktop\\BackendAPI\\DataAccesss\\DataAccesss.csproj": {
+                "projectPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DataAccesss\\DataAccesss.csproj"
+              },
+              "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainRegistration\\DomainRegistration.csproj": {
+                "projectPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainRegistration\\DomainRegistration.csproj"
               }
             }
           }
