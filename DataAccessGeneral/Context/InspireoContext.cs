@@ -49,15 +49,15 @@ public partial class InspireoContext : DbContext
 
     public virtual DbSet<User> Users { get; set; }
 
-  /*  protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=DESKTOP-3F0EBO4;Database=Inspireo;Trusted_Connection=True;TrustServerCertificate=True;");*/
+        => optionsBuilder.UseSqlServer("Server=DESKTOP-3F0EBO4;Database=Inspireo;Trusted_Connection=True;TrustServerCertificate=True;");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Album>(entity =>
         {
-            entity.HasKey(e => e.IdOfAlbum).HasName("PK__Album__A6F0AF264AB902D5");
+            entity.HasKey(e => e.IdOfAlbum).HasName("PK__Album__A6F0AF26E9B7397E");
 
             entity.ToTable("Album");
 
@@ -78,7 +78,7 @@ public partial class InspireoContext : DbContext
             entity.HasOne(d => d.Author).WithMany(p => p.Albums)
                 .HasForeignKey(d => d.AuthorId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Album__Author_id__74444068");
+                .HasConstraintName("FK__Album__Author_id__52AE4273");
 
             entity.HasMany(d => d.IdOfUsers).WithMany(p => p.IdOfAlbums)
                 .UsingEntity<Dictionary<string, object>>(
@@ -86,14 +86,14 @@ public partial class InspireoContext : DbContext
                     r => r.HasOne<User>().WithMany()
                         .HasForeignKey("IdOfUser")
                         .OnDelete(DeleteBehavior.ClientSetNull)
-                        .HasConstraintName("FK__Added_Alb__Id_of__7720AD13"),
+                        .HasConstraintName("FK__Added_Alb__Id_of__558AAF1E"),
                     l => l.HasOne<Album>().WithMany()
                         .HasForeignKey("IdOfAlbum")
                         .OnDelete(DeleteBehavior.ClientSetNull)
-                        .HasConstraintName("FK__Added_Alb__Id_Of__7814D14C"),
+                        .HasConstraintName("FK__Added_Alb__Id_Of__567ED357"),
                     j =>
                     {
-                        j.HasKey("IdOfAlbum", "IdOfUser").HasName("PK__Added_Al__8446838EFE32B976");
+                        j.HasKey("IdOfAlbum", "IdOfUser").HasName("PK__Added_Al__8446838EFB5FF878");
                         j.ToTable("Added_Albums");
                         j.IndexerProperty<string>("IdOfAlbum")
                             .HasMaxLength(54)
@@ -106,7 +106,7 @@ public partial class InspireoContext : DbContext
 
         modelBuilder.Entity<AlbumContainer>(entity =>
         {
-            entity.HasKey(e => new { e.IdOfAlbum, e.IdOfImage }).HasName("PK__Album_Co__1FC4DD42F6FEEB0F");
+            entity.HasKey(e => new { e.IdOfAlbum, e.IdOfImage }).HasName("PK__Album_Co__1FC4DD42735D2EBC");
 
             entity.ToTable("Album_Container");
 
@@ -120,17 +120,17 @@ public partial class InspireoContext : DbContext
             entity.HasOne(d => d.IdOfAlbumNavigation).WithMany(p => p.AlbumContainers)
                 .HasForeignKey(d => d.IdOfAlbum)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Album_Con__Id_Of__7AF13DF7");
+                .HasConstraintName("FK__Album_Con__Id_Of__595B4002");
 
             entity.HasOne(d => d.IdOfAlbum1).WithMany(p => p.AlbumContainers)
                 .HasForeignKey(d => d.IdOfAlbum)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Album_Con__Id_Of__7BE56230");
+                .HasConstraintName("FK__Album_Con__Id_Of__5A4F643B");
         });
 
         modelBuilder.Entity<Comment>(entity =>
         {
-            entity.HasKey(e => new { e.IdOfUser, e.IdOfAlbum, e.DateOfComment }).HasName("PK__Comment__8B7144C1A2B8848F");
+            entity.HasKey(e => new { e.IdOfUser, e.IdOfAlbum, e.DateOfComment }).HasName("PK__Comment__8B7144C12F873C35");
 
             entity.ToTable("Comment");
 
@@ -147,17 +147,17 @@ public partial class InspireoContext : DbContext
             entity.HasOne(d => d.IdOfAlbumNavigation).WithMany(p => p.Comments)
                 .HasForeignKey(d => d.IdOfAlbum)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Comment__Id_Of_A__0E04126B");
+                .HasConstraintName("FK__Comment__Id_Of_A__6C6E1476");
 
             entity.HasOne(d => d.IdOfUserNavigation).WithMany(p => p.Comments)
                 .HasForeignKey(d => d.IdOfUser)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Comment__ID_of_u__0D0FEE32");
+                .HasConstraintName("FK__Comment__ID_of_u__6B79F03D");
         });
 
         modelBuilder.Entity<Config>(entity =>
         {
-            entity.HasKey(e => e.IdOfUser).HasName("PK__Config__23D22D0A9A16BFDF");
+            entity.HasKey(e => e.IdOfUser).HasName("PK__Config__23D22D0A61157907");
 
             entity.ToTable("Config");
 
@@ -171,12 +171,12 @@ public partial class InspireoContext : DbContext
             entity.HasOne(d => d.IdOfUserNavigation).WithOne(p => p.Config)
                 .HasForeignKey<Config>(d => d.IdOfUser)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Config__ID_of_us__66EA454A");
+                .HasConstraintName("FK__Config__ID_of_us__45544755");
         });
 
         modelBuilder.Entity<EmailConfirmation>(entity =>
         {
-            entity.HasKey(e => e.IdReq).HasName("PK__EmailCon__182A6452AB670A6A");
+            entity.HasKey(e => e.IdReq).HasName("PK__EmailCon__182A6452D6AAACC9");
 
             entity.ToTable("EmailConfirmation");
 
@@ -191,6 +191,7 @@ public partial class InspireoContext : DbContext
             entity.Property(e => e.DeletedAt)
                 .HasColumnType("datetime")
                 .HasColumnName("Deleted_at");
+            entity.Property(e => e.Expire).HasColumnType("datetime");
             entity.Property(e => e.IdOfUser)
                 .HasMaxLength(54)
                 .HasColumnName("ID_of_user");
@@ -202,12 +203,12 @@ public partial class InspireoContext : DbContext
             entity.HasOne(d => d.IdOfUserNavigation).WithMany(p => p.EmailConfirmations)
                 .HasForeignKey(d => d.IdOfUser)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__EmailConf__ID_of__4E1E9780");
+                .HasConstraintName("FK__EmailConf__ID_of__2C88998B");
         });
 
         modelBuilder.Entity<FingerPrinting>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Finger_p__3214EC272D87B3B6");
+            entity.HasKey(e => e.Id).HasName("PK__Finger_p__3214EC277551B974");
 
             entity.ToTable("Finger_printing");
 
@@ -239,7 +240,7 @@ public partial class InspireoContext : DbContext
 
         modelBuilder.Entity<FriendRequest>(entity =>
         {
-            entity.HasKey(e => e.IdOfFriendRequest).HasName("PK__Friend_R__E6760891E0C175A5");
+            entity.HasKey(e => e.IdOfFriendRequest).HasName("PK__Friend_R__E6760891002E9BFC");
 
             entity.ToTable("Friend_Request");
 
@@ -263,17 +264,17 @@ public partial class InspireoContext : DbContext
             entity.HasOne(d => d.IdOfReceiverNavigation).WithMany(p => p.FriendRequestIdOfReceiverNavigations)
                 .HasForeignKey(d => d.IdOfReceiver)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Friend_Re__Id_of__6CA31EA0");
+                .HasConstraintName("FK__Friend_Re__Id_of__4B0D20AB");
 
             entity.HasOne(d => d.IdOfSenderNavigation).WithMany(p => p.FriendRequestIdOfSenderNavigations)
                 .HasForeignKey(d => d.IdOfSender)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Friend_Re__Id_of__6BAEFA67");
+                .HasConstraintName("FK__Friend_Re__Id_of__4A18FC72");
         });
 
         modelBuilder.Entity<Image>(entity =>
         {
-            entity.HasKey(e => e.IdOfImage).HasName("PK__Images__9347264AC3DF1272");
+            entity.HasKey(e => e.IdOfImage).HasName("PK__Images__9347264A00696AF9");
 
             entity.Property(e => e.IdOfImage)
                 .HasMaxLength(54)
@@ -285,7 +286,7 @@ public partial class InspireoContext : DbContext
 
         modelBuilder.Entity<Notification>(entity =>
         {
-            entity.HasKey(e => e.IdOfNotification).HasName("PK__Notifica__36C6F471DC6FBB65");
+            entity.HasKey(e => e.IdOfNotification).HasName("PK__Notifica__36C6F471E566F159");
 
             entity.Property(e => e.IdOfNotification)
                 .HasMaxLength(54)
@@ -302,20 +303,20 @@ public partial class InspireoContext : DbContext
 
             entity.HasOne(d => d.IdOfFriendRequestNavigation).WithMany(p => p.Notifications)
                 .HasForeignKey(d => d.IdOfFriendRequest)
-                .HasConstraintName("FK__Notificat__Id_of__12C8C788");
+                .HasConstraintName("FK__Notificat__Id_of__7132C993");
 
             entity.HasOne(d => d.IdOfSessionNavigation).WithMany(p => p.Notifications)
                 .HasForeignKey(d => d.IdOfSession)
-                .HasConstraintName("FK__Notificat__ID_of__11D4A34F");
+                .HasConstraintName("FK__Notificat__ID_of__703EA55A");
 
             entity.HasOne(d => d.IdOfUserNavigation).WithMany(p => p.Notifications)
                 .HasForeignKey(d => d.IdOfUser)
-                .HasConstraintName("FK__Notificat__ID_of__10E07F16");
+                .HasConstraintName("FK__Notificat__ID_of__6F4A8121");
         });
 
         modelBuilder.Entity<Post>(entity =>
         {
-            entity.HasKey(e => e.IdOfPost).HasName("PK__Posts__D5E419AEBB29C6BC");
+            entity.HasKey(e => e.IdOfPost).HasName("PK__Posts__D5E419AE908AEE1C");
 
             entity.Property(e => e.IdOfPost)
                 .HasMaxLength(54)
@@ -343,12 +344,12 @@ public partial class InspireoContext : DbContext
             entity.HasOne(d => d.Author).WithMany(p => p.Posts)
                 .HasForeignKey(d => d.AuthorId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Posts__Author_id__53D770D6");
+                .HasConstraintName("FK__Posts__Author_id__324172E1");
         });
 
         modelBuilder.Entity<Relation>(entity =>
         {
-            entity.HasKey(e => new { e.IdOfPost, e.IdOfUser }).HasName("PK__Relation__67D93B7EAF7DD9A5");
+            entity.HasKey(e => new { e.IdOfPost, e.IdOfUser }).HasName("PK__Relation__67D93B7EEC46E349");
 
             entity.ToTable("Relation");
 
@@ -365,17 +366,17 @@ public partial class InspireoContext : DbContext
             entity.HasOne(d => d.IdOfPostNavigation).WithMany(p => p.Relations)
                 .HasForeignKey(d => d.IdOfPost)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Relation__ID_of___57A801BA");
+                .HasConstraintName("FK__Relation__ID_of___361203C5");
 
             entity.HasOne(d => d.IdOfUserNavigation).WithMany(p => p.Relations)
                 .HasForeignKey(d => d.IdOfUser)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Relation__ID_of___589C25F3");
+                .HasConstraintName("FK__Relation__ID_of___370627FE");
         });
 
         modelBuilder.Entity<Relationship>(entity =>
         {
-            entity.HasKey(e => new { e.IdOfSender, e.IdOfReceiver }).HasName("PK__Relation__609DD34494A2CA11");
+            entity.HasKey(e => new { e.IdOfSender, e.IdOfReceiver }).HasName("PK__Relation__609DD34467275F90");
 
             entity.ToTable("Relationship");
 
@@ -396,17 +397,17 @@ public partial class InspireoContext : DbContext
             entity.HasOne(d => d.IdOfReceiverNavigation).WithMany(p => p.RelationshipIdOfReceiverNavigations)
                 .HasForeignKey(d => d.IdOfReceiver)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Relations__Id_of__7167D3BD");
+                .HasConstraintName("FK__Relations__Id_of__4FD1D5C8");
 
             entity.HasOne(d => d.IdOfSenderNavigation).WithMany(p => p.RelationshipIdOfSenderNavigations)
                 .HasForeignKey(d => d.IdOfSender)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Relations__Id_of__7073AF84");
+                .HasConstraintName("FK__Relations__Id_of__4EDDB18F");
         });
 
         modelBuilder.Entity<Report>(entity =>
         {
-            entity.HasKey(e => new { e.IdOfPost, e.IdOfReporter }).HasName("PK__Reports__385CD96F35F1F133");
+            entity.HasKey(e => new { e.IdOfPost, e.IdOfReporter }).HasName("PK__Reports__385CD96F5E965FB6");
 
             entity.Property(e => e.IdOfPost)
                 .HasMaxLength(54)
@@ -429,17 +430,17 @@ public partial class InspireoContext : DbContext
             entity.HasOne(d => d.IdOfPostNavigation).WithMany(p => p.Reports)
                 .HasForeignKey(d => d.IdOfPost)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Reports__ID_of_p__5C6CB6D7");
+                .HasConstraintName("FK__Reports__ID_of_p__3AD6B8E2");
 
             entity.HasOne(d => d.IdOfReporterNavigation).WithMany(p => p.Reports)
                 .HasForeignKey(d => d.IdOfReporter)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Reports__ID_of_r__5D60DB10");
+                .HasConstraintName("FK__Reports__ID_of_r__3BCADD1B");
         });
 
         modelBuilder.Entity<SearchHistory>(entity =>
         {
-            entity.HasKey(e => e.IdOfQuery).HasName("PK__Search_h__5D2590BF97430183");
+            entity.HasKey(e => e.IdOfQuery).HasName("PK__Search_h__5D2590BF29059D03");
 
             entity.ToTable("Search_history");
 
@@ -457,12 +458,12 @@ public partial class InspireoContext : DbContext
             entity.HasOne(d => d.IdOfUserNavigation).WithMany(p => p.SearchHistories)
                 .HasForeignKey(d => d.IdOfUser)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Search_hi__ID_of__093F5D4E");
+                .HasConstraintName("FK__Search_hi__ID_of__67A95F59");
         });
 
         modelBuilder.Entity<Session>(entity =>
         {
-            entity.HasKey(e => e.IdOfSession).HasName("PK__Sessions__7599B21915E63189");
+            entity.HasKey(e => e.IdOfSession).HasName("PK__Sessions__7599B219AB06F4ED");
 
             entity.Property(e => e.IdOfSession)
                 .HasMaxLength(54)
@@ -479,12 +480,12 @@ public partial class InspireoContext : DbContext
             entity.HasOne(d => d.IdOfDeviceNavigation).WithMany(p => p.Sessions)
                 .HasForeignKey(d => d.IdOfDevice)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Sessions__ID_of___640DD89F");
+                .HasConstraintName("FK__Sessions__ID_of___4277DAAA");
         });
 
         modelBuilder.Entity<Tag>(entity =>
         {
-            entity.HasKey(e => e.IdOfTag).HasName("PK__Tags__E98DE03884A03DC5");
+            entity.HasKey(e => e.IdOfTag).HasName("PK__Tags__E98DE03876F6B3E7");
 
             entity.Property(e => e.IdOfTag)
                 .HasMaxLength(54)
@@ -499,14 +500,14 @@ public partial class InspireoContext : DbContext
                     r => r.HasOne<Album>().WithMany()
                         .HasForeignKey("IdOfAlbum")
                         .OnDelete(DeleteBehavior.ClientSetNull)
-                        .HasConstraintName("FK__Albums_ta__Id_Of__019E3B86"),
+                        .HasConstraintName("FK__Albums_ta__Id_Of__60083D91"),
                     l => l.HasOne<Tag>().WithMany()
                         .HasForeignKey("IdOfTag")
                         .OnDelete(DeleteBehavior.ClientSetNull)
-                        .HasConstraintName("FK__Albums_ta__Id_of__00AA174D"),
+                        .HasConstraintName("FK__Albums_ta__Id_of__5F141958"),
                     j =>
                     {
-                        j.HasKey("IdOfTag", "IdOfAlbum").HasName("PK__Albums_t__93E2EACA00BE4A18");
+                        j.HasKey("IdOfTag", "IdOfAlbum").HasName("PK__Albums_t__93E2EACACD4C70A7");
                         j.ToTable("Albums_tags");
                         j.IndexerProperty<string>("IdOfTag")
                             .HasMaxLength(54)
@@ -522,14 +523,14 @@ public partial class InspireoContext : DbContext
                     r => r.HasOne<Post>().WithMany()
                         .HasForeignKey("IdOfPost")
                         .OnDelete(DeleteBehavior.ClientSetNull)
-                        .HasConstraintName("FK__Posts_tag__ID_of__056ECC6A"),
+                        .HasConstraintName("FK__Posts_tag__ID_of__63D8CE75"),
                     l => l.HasOne<Tag>().WithMany()
                         .HasForeignKey("IdOfTag")
                         .OnDelete(DeleteBehavior.ClientSetNull)
-                        .HasConstraintName("FK__Posts_tag__Id_of__047AA831"),
+                        .HasConstraintName("FK__Posts_tag__Id_of__62E4AA3C"),
                     j =>
                     {
-                        j.HasKey("IdOfTag", "IdOfPost").HasName("PK__Posts_ta__14D3A1A23A21ED51");
+                        j.HasKey("IdOfTag", "IdOfPost").HasName("PK__Posts_ta__14D3A1A2578AAB25");
                         j.ToTable("Posts_tags");
                         j.IndexerProperty<string>("IdOfTag")
                             .HasMaxLength(54)
@@ -542,9 +543,9 @@ public partial class InspireoContext : DbContext
 
         modelBuilder.Entity<User>(entity =>
         {
-            entity.HasKey(e => e.IdOfUser).HasName("PK__Users__23D22D0A7B2C78A9");
+            entity.HasKey(e => e.IdOfUser).HasName("PK__Users__23D22D0A34972BF8");
 
-            entity.HasIndex(e => e.UserName, "UQ__Users__C9F28456A7CE32E8").IsUnique();
+            entity.HasIndex(e => e.UserName, "UQ__Users__C9F28456C0BC7EEB").IsUnique();
 
             entity.Property(e => e.IdOfUser)
                 .HasMaxLength(54)
@@ -554,6 +555,10 @@ public partial class InspireoContext : DbContext
                 .HasMaxLength(255)
                 .IsUnicode(false);
             entity.Property(e => e.BirthDate).HasColumnType("datetime");
+            entity.Property(e => e.CreatedAt)
+                .HasDefaultValueSql("(getdate())")
+                .HasColumnType("datetime")
+                .HasColumnName("Created_at");
             entity.Property(e => e.DeletedAt)
                 .HasColumnType("datetime")
                 .HasColumnName("Deleted_at");
@@ -583,7 +588,7 @@ public partial class InspireoContext : DbContext
 
             entity.HasOne(d => d.AvatarNavigation).WithMany(p => p.Users)
                 .HasForeignKey(d => d.Avatar)
-                .HasConstraintName("FK__Users__Avatar__4865BE2A");
+                .HasConstraintName("FK__Users__Avatar__27C3E46E");
         });
 
         OnModelCreatingPartial(modelBuilder);

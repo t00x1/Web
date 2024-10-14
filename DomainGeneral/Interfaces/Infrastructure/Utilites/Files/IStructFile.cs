@@ -3,7 +3,7 @@
     public interface IStructFile<T> where T : class
     {
         void Read();
-        T GetModel();
+        T Model { get; }
 
     }
 }

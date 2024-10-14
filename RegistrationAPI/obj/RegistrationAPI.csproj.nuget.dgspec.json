@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sasha\\Desktop\\BackendAPI\\RegistrationAPI\\RegistrationAPI.csproj": {}
+    "C:\\Users\\sasha\\Desktop\\BackendAPI\\RegistrationApi\\RegistrationApi.csproj": {}
   },
   "projects": {
     "C:\\Users\\sasha\\Desktop\\BackendAPI\\BusinessLogicRegistration\\BusinessLogicRegistration.csproj": {
@@ -406,6 +406,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -426,14 +432,14 @@
         }
       }
     },
-    "C:\\Users\\sasha\\Desktop\\BackendAPI\\RegistrationAPI\\RegistrationAPI.csproj": {
+    "C:\\Users\\sasha\\Desktop\\BackendAPI\\RegistrationApi\\RegistrationApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sasha\\Desktop\\BackendAPI\\RegistrationAPI\\RegistrationAPI.csproj",
-        "projectName": "RegistrationAPI",
-        "projectPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\RegistrationAPI\\RegistrationAPI.csproj",
+        "projectUniqueName": "C:\\Users\\sasha\\Desktop\\BackendAPI\\RegistrationApi\\RegistrationApi.csproj",
+        "projectName": "RegistrationApi",
+        "projectPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\RegistrationApi\\RegistrationApi.csproj",
         "packagesPath": "C:\\Users\\sasha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\RegistrationAPI\\obj\\",
+        "outputPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\RegistrationApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -457,6 +463,9 @@
               "C:\\Users\\sasha\\Desktop\\BackendAPI\\DataAccesss\\DataAccesss.csproj": {
                 "projectPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DataAccesss\\DataAccesss.csproj"
               },
+              "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainGeneral\\DomainGeneral.csproj": {
+                "projectPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainGeneral\\DomainGeneral.csproj"
+              },
               "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainRegistration\\DomainRegistration.csproj": {
                 "projectPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainRegistration\\DomainRegistration.csproj"
               }
@@ -478,6 +487,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.20.1, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"

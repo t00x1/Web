@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 using DomainGeneral.Infrastructure.Utilities.Functions;
 namespace InfrastructureGeneral.Utilites.Functions
 {
-    public class Code : ICode
+    public  class Code : ICode
     {
-        public string GenerateCode() => new Random().Next().ToString();
+        public  string GenerateCode() => new Random().Next().ToString();
 
-        public string GenerateCode(int length = 6)
+        public  string GenerateCode(int length = 6)
         {
             if (length <= 0)
             {

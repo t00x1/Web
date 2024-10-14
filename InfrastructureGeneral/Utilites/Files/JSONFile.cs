@@ -10,45 +10,24 @@ namespace InfrastructureGeneral.Utilites.Files
     {
         public JSONFile(string path)
         {
-            Path = path;
+            _path = path;
         }
-
-        public string Path { get; }
-
         public T Model { get; private set; }
+        private string _path;
+
 
         public void Read()
         {
-            StringBuilder result = new StringBuilder();
-
             try
             {
-                using (var reader = new StreamReader(Path, Encoding.UTF8))
-                {
-                    string line;
-                    while ((line = reader.ReadLine()) != null)
-                    {
-                        result.Append(line);
-                    }
-                }
+                FileContent fileContent = new FileContent();
 
-                Model = JsonSerializer.Deserialize<T>(result.ToString());
+                Model = JsonSerializer.Deserialize<T>(fileContent.ReadFile(_path));
             }
-            catch (FileNotFoundException ex)
-            {
-                LogError($"Файл не найден: {Path}", ex);
-            }
-            catch (IOException ex)
-            {
-                LogError("Ошибка при чтении файла", ex);
-            }
-            catch (JsonException ex)
-            {
-                LogError("Ошибка при десериализации JSON", ex);
-            }
+            
             catch (Exception ex)
             {
-                LogError("Произошла ошибка", ex);
+                throw;
             }
         }
 
@@ -65,13 +44,6 @@ namespace InfrastructureGeneral.Utilites.Files
             }
         }*/
 
-        public T? GetModel() => Model; // Метод для получения модели
-
-        private void LogError(string message, Exception ex)
-        {
-            Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine($"{message}: {ex.Message}");
-            Console.ResetColor();
-        }
+      
     }
 }

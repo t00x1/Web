@@ -3,12 +3,22 @@ using DataAccess.ModelsDB;
 using Registration.DataAccess.Wrapper;
 using Registration.Domain.Interfaces.Wrapper;
 using Registration.Domain.Interfaces.Service;
-
 using Registration.BusinessLogic.Service;
+
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllers();
+// Настройка CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAllOrigins", builder =>
+    {
+        builder.AllowAnyOrigin() // Позволяет любые источники
+               .AllowAnyMethod() // Позволяет любые HTTP методы (GET, POST и т.д.)
+               .AllowAnyHeader(); // Позволяет любые заголовки
+    });
+});
 
+builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -18,6 +28,7 @@ builder.Services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
 builder.Services.AddScoped<IUserService, UserService>();
 
 var app = builder.Build();
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -25,6 +36,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+// Включите CORS
+app.UseCors("AllowAllOrigins");
 
 app.UseAuthorization();
 

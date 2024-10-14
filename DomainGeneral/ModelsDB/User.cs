@@ -31,6 +31,10 @@ public partial class User
 
     public bool Male { get; set; }
 
+    public bool ConfirmedEmail { get; set; }
+
+    public DateTime CreatedAt { get; set; }
+
     public DateTime UpdatedAt { get; set; }
 
     public DateTime? DeletedAt { get; set; }

@@ -11,12 +11,13 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("RegistrationAPI")]
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("a27e1685-5fd4-4593-aaf0-433037d6df69")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("RegistrationApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+289eaad7e90cb902715aec10b6ab80e741fdfdad")]
-[assembly: System.Reflection.AssemblyProductAttribute("RegistrationAPI")]
-[assembly: System.Reflection.AssemblyTitleAttribute("RegistrationAPI")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0f07b430d93a9b9f1fccc9fa67a567fb0ac68d9c")]
+[assembly: System.Reflection.AssemblyProductAttribute("RegistrationApi")]
+[assembly: System.Reflection.AssemblyTitleAttribute("RegistrationApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Создано классом WriteCodeFragment MSBuild.

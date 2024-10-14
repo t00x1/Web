@@ -11,7 +11,7 @@ public partial class EmailConfirmation
 
     public string Code { get; set; } = null!;
 
-    public bool Confirmed { get; set; }
+    public DateTime Expire { get; set; }
 
     public DateTime CreatedAt { get; set; }
 

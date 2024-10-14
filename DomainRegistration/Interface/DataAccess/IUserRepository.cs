@@ -13,5 +13,6 @@ namespace Registration.Domain.Interfaces.DataAccess
 {
     public interface IUserRepository : IRepositoryBase<User>
     {
+
     }
 }

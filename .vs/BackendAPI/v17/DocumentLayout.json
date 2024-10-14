@@ -3,32 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4906846E-5A95-4F8E-8869-6922D59C10C2}|InfrastructureGeneral\\InfrastructureGeneral.csproj|c:\\users\\sasha\\desktop\\backendapi\\infrastructuregeneral\\utilites\\functions\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4906846E-5A95-4F8E-8869-6922D59C10C2}|InfrastructureGeneral\\InfrastructureGeneral.csproj|solutionrelative:infrastructuregeneral\\utilites\\functions\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{80E5E23D-4CB9-449E-818E-29309E5F8512}|RegistrationApi\\RegistrationApi.csproj|c:\\users\\sasha\\desktop\\backendapi\\registrationapi\\controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80E5E23D-4CB9-449E-818E-29309E5F8512}|RegistrationApi\\RegistrationApi.csproj|solutionrelative:registrationapi\\controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4906846E-5A95-4F8E-8869-6922D59C10C2}|InfrastructureGeneral\\InfrastructureGeneral.csproj|c:\\users\\sasha\\desktop\\backendapi\\infrastructuregeneral\\utilites\\functions\\uniquecodewindows.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4906846E-5A95-4F8E-8869-6922D59C10C2}|InfrastructureGeneral\\InfrastructureGeneral.csproj|solutionrelative:infrastructuregeneral\\utilites\\functions\\uniquecodewindows.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95E90775-3EF4-463B-A191-11419A7DA273}|DomainRegistration\\DomainRegistration.csproj|c:\\users\\sasha\\desktop\\backendapi\\domainregistration\\interface\\dataaccess\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95E90775-3EF4-463B-A191-11419A7DA273}|DomainRegistration\\DomainRegistration.csproj|solutionrelative:domainregistration\\interface\\dataaccess\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4340EF0C-24DC-4154-A065-E8542E169DF6}|RegistrationAPI\\RegistrationAPI.csproj|c:\\users\\sasha\\desktop\\backendapi\\registrationapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4340EF0C-24DC-4154-A065-E8542E169DF6}|RegistrationAPI\\RegistrationAPI.csproj|solutionrelative:registrationapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4340EF0C-24DC-4154-A065-E8542E169DF6}|RegistrationAPI\\RegistrationAPI.csproj|c:\\users\\sasha\\desktop\\backendapi\\registrationapi\\controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4340EF0C-24DC-4154-A065-E8542E169DF6}|RegistrationAPI\\RegistrationAPI.csproj|solutionrelative:registrationapi\\controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{445A856B-77A1-4B42-B493-10F6ACA81B7E}|DomainGeneral\\DomainGeneral.csproj|c:\\users\\sasha\\desktop\\backendapi\\domaingeneral\\modelsdto\\authenticaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{445A856B-77A1-4B42-B493-10F6ACA81B7E}|DomainGeneral\\DomainGeneral.csproj|solutionrelative:domaingeneral\\modelsdto\\authenticaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2E165935-3AFD-4C1F-AE40-7D65D5690E01}|BusinessLogicRegistration\\BusinessLogicRegistration.csproj|c:\\users\\sasha\\desktop\\backendapi\\businesslogicregistration\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E165935-3AFD-4C1F-AE40-7D65D5690E01}|BusinessLogicRegistration\\BusinessLogicRegistration.csproj|solutionrelative:businesslogicregistration\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95E90775-3EF4-463B-A191-11419A7DA273}|DomainRegistration\\DomainRegistration.csproj|c:\\users\\sasha\\desktop\\backendapi\\domainregistration\\service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95E90775-3EF4-463B-A191-11419A7DA273}|DomainRegistration\\DomainRegistration.csproj|solutionrelative:domainregistration\\service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C630C0A7-D993-46EC-A69E-B4ACAAE0CF8F}|DataAccesss\\DataAccesss.csproj|c:\\users\\sasha\\desktop\\backendapi\\dataaccesss\\wrapper\\repositorywrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C630C0A7-D993-46EC-A69E-B4ACAAE0CF8F}|DataAccesss\\DataAccesss.csproj|solutionrelative:dataaccesss\\wrapper\\repositorywrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4906846E-5A95-4F8E-8869-6922D59C10C2}|InfrastructureGeneral\\InfrastructureGeneral.csproj|c:\\users\\sasha\\desktop\\backendapi\\infrastructuregeneral\\email\\emailyandex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4906846E-5A95-4F8E-8869-6922D59C10C2}|InfrastructureGeneral\\InfrastructureGeneral.csproj|solutionrelative:infrastructuregeneral\\email\\emailyandex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{445A856B-77A1-4B42-B493-10F6ACA81B7E}|DomainGeneral\\DomainGeneral.csproj|c:\\users\\sasha\\desktop\\backendapi\\domaingeneral\\icodeemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{445A856B-77A1-4B42-B493-10F6ACA81B7E}|DomainGeneral\\DomainGeneral.csproj|solutionrelative:domaingeneral\\icodeemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{847DA097-8076-4919-A766-BD840D4250DB}|DataAccessGeneral\\DataAccessGeneral.csproj|c:\\users\\sasha\\desktop\\backendapi\\dataaccessgeneral\\repository\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{847DA097-8076-4919-A766-BD840D4250DB}|DataAccessGeneral\\DataAccessGeneral.csproj|solutionrelative:dataaccessgeneral\\repository\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4906846E-5A95-4F8E-8869-6922D59C10C2}|InfrastructureGeneral\\InfrastructureGeneral.csproj|c:\\users\\sasha\\desktop\\backendapi\\infrastructuregeneral\\utilites\\files\\filecontent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4906846E-5A95-4F8E-8869-6922D59C10C2}|InfrastructureGeneral\\InfrastructureGeneral.csproj|solutionrelative:infrastructuregeneral\\utilites\\files\\filecontent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{445A856B-77A1-4B42-B493-10F6ACA81B7E}|DomainGeneral\\DomainGeneral.csproj|c:\\users\\sasha\\desktop\\backendapi\\domaingeneral\\modelsdto\\customexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{445A856B-77A1-4B42-B493-10F6ACA81B7E}|DomainGeneral\\DomainGeneral.csproj|solutionrelative:domaingeneral\\modelsdto\\customexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80E5E23D-4CB9-449E-818E-29309E5F8512}|RegistrationApi\\RegistrationApi.csproj|c:\\users\\sasha\\desktop\\backendapi\\registrationapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80E5E23D-4CB9-449E-818E-29309E5F8512}|RegistrationApi\\RegistrationApi.csproj|solutionrelative:registrationapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4906846E-5A95-4F8E-8869-6922D59C10C2}|InfrastructureGeneral\\InfrastructureGeneral.csproj|c:\\users\\sasha\\desktop\\backendapi\\infrastructuregeneral\\utilites\\functions\\code.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4906846E-5A95-4F8E-8869-6922D59C10C2}|InfrastructureGeneral\\InfrastructureGeneral.csproj|solutionrelative:infrastructuregeneral\\utilites\\functions\\code.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4906846E-5A95-4F8E-8869-6922D59C10C2}|InfrastructureGeneral\\InfrastructureGeneral.csproj|c:\\users\\sasha\\desktop\\backendapi\\infrastructuregeneral\\utilites\\functions\\password\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4906846E-5A95-4F8E-8869-6922D59C10C2}|InfrastructureGeneral\\InfrastructureGeneral.csproj|solutionrelative:infrastructuregeneral\\utilites\\functions\\password\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4906846E-5A95-4F8E-8869-6922D59C10C2}|InfrastructureGeneral\\InfrastructureGeneral.csproj|c:\\users\\sasha\\desktop\\backendapi\\infrastructuregeneral\\utilites\\functions\\password\\bcryptpasswordhashingalgorithm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4906846E-5A95-4F8E-8869-6922D59C10C2}|InfrastructureGeneral\\InfrastructureGeneral.csproj|solutionrelative:infrastructuregeneral\\utilites\\functions\\password\\bcryptpasswordhashingalgorithm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4906846E-5A95-4F8E-8869-6922D59C10C2}|InfrastructureGeneral\\InfrastructureGeneral.csproj|c:\\users\\sasha\\desktop\\backendapi\\infrastructuregeneral\\utilites\\files\\jsonfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4906846E-5A95-4F8E-8869-6922D59C10C2}|InfrastructureGeneral\\InfrastructureGeneral.csproj|solutionrelative:infrastructuregeneral\\utilites\\files\\jsonfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,97 +66,188 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UniqueCodeWindows.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\BackendAPI\\InfrastructureGeneral\\Utilites\\Functions\\UniqueCodeWindows.cs",
-              "RelativeDocumentMoniker": "InfrastructureGeneral\\Utilites\\Functions\\UniqueCodeWindows.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\BackendAPI\\InfrastructureGeneral\\Utilites\\Functions\\UniqueCodeWindows.cs",
-              "RelativeToolTip": "InfrastructureGeneral\\Utilites\\Functions\\UniqueCodeWindows.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAoAAAA",
+              "Title": "AuthenticateRequest.cs",
+              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainGeneral\\ModelsDTO\\AuthenticateRequest.cs",
+              "RelativeDocumentMoniker": "DomainGeneral\\ModelsDTO\\AuthenticateRequest.cs",
+              "ToolTip": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainGeneral\\ModelsDTO\\AuthenticateRequest.cs",
+              "RelativeToolTip": "DomainGeneral\\ModelsDTO\\AuthenticateRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T19:42:30.763Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PasswordHasher.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\BackendAPI\\InfrastructureGeneral\\Utilites\\Functions\\PasswordHasher.cs",
-              "RelativeDocumentMoniker": "InfrastructureGeneral\\Utilites\\Functions\\PasswordHasher.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\BackendAPI\\InfrastructureGeneral\\Utilites\\Functions\\PasswordHasher.cs",
-              "RelativeToolTip": "InfrastructureGeneral\\Utilites\\Functions\\PasswordHasher.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T19:40:01.283Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainRegistration\\Service\\IUserService.cs",
-              "RelativeDocumentMoniker": "DomainRegistration\\Service\\IUserService.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainRegistration\\Service\\IUserService.cs",
-              "RelativeToolTip": "DomainRegistration\\Service\\IUserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T19:07:35.806Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\BackendAPI\\BusinessLogicRegistration\\Service\\UserService.cs",
-              "RelativeDocumentMoniker": "BusinessLogicRegistration\\Service\\UserService.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\BackendAPI\\BusinessLogicRegistration\\Service\\UserService.cs",
-              "RelativeToolTip": "BusinessLogicRegistration\\Service\\UserService.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAkwC8AAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T18:09:32.506Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RegistrationController.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\BackendAPI\\RegistrationAPI\\Controllers\\RegistrationController.cs",
-              "RelativeDocumentMoniker": "RegistrationAPI\\Controllers\\RegistrationController.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\BackendAPI\\RegistrationAPI\\Controllers\\RegistrationController.cs",
-              "RelativeToolTip": "RegistrationAPI\\Controllers\\RegistrationController.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAUwB4AAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T22:18:22.4Z",
+              "WhenOpened": "2024-10-14T20:52:24.088Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\BackendAPI\\RegistrationAPI\\Program.cs",
-              "RelativeDocumentMoniker": "RegistrationAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\BackendAPI\\RegistrationAPI\\Program.cs",
-              "RelativeToolTip": "RegistrationAPI\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAaAAAA",
+              "Title": "RepositoryWrapper.cs",
+              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DataAccesss\\Wrapper\\RepositoryWrapper.cs",
+              "RelativeDocumentMoniker": "DataAccesss\\Wrapper\\RepositoryWrapper.cs",
+              "ToolTip": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DataAccesss\\Wrapper\\RepositoryWrapper.cs",
+              "RelativeToolTip": "DataAccesss\\Wrapper\\RepositoryWrapper.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAB8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T22:16:51.713Z",
+              "WhenOpened": "2024-10-14T16:01:15.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ICodeEmail.cs",
+              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainGeneral\\ICodeEmail.cs",
+              "RelativeDocumentMoniker": "DomainGeneral\\ICodeEmail.cs",
+              "ToolTip": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainGeneral\\ICodeEmail.cs",
+              "RelativeToolTip": "DomainGeneral\\ICodeEmail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T14:15:42.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmailYandex.cs",
+              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\BackendAPI\\InfrastructureGeneral\\Email\\EmailYandex.cs",
+              "RelativeDocumentMoniker": "InfrastructureGeneral\\Email\\EmailYandex.cs",
+              "ToolTip": "C:\\Users\\sasha\\Desktop\\BackendAPI\\InfrastructureGeneral\\Email\\EmailYandex.cs",
+              "RelativeToolTip": "InfrastructureGeneral\\Email\\EmailYandex.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAUwBsAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T14:13:03.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CustomException.cs",
+              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainGeneral\\ModelsDTO\\CustomException.cs",
+              "RelativeDocumentMoniker": "DomainGeneral\\ModelsDTO\\CustomException.cs",
+              "ToolTip": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainGeneral\\ModelsDTO\\CustomException.cs",
+              "RelativeToolTip": "DomainGeneral\\ModelsDTO\\CustomException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T12:22:26.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\BackendAPI\\InfrastructureGeneral\\Utilites\\Functions\\Password\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "InfrastructureGeneral\\Utilites\\Functions\\Password\\PasswordHasher.cs",
+              "ToolTip": "C:\\Users\\sasha\\Desktop\\BackendAPI\\InfrastructureGeneral\\Utilites\\Functions\\Password\\PasswordHasher.cs",
+              "RelativeToolTip": "InfrastructureGeneral\\Utilites\\Functions\\Password\\PasswordHasher.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T12:17:05.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BCryptPasswordHashingAlgorithm.cs",
+              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\BackendAPI\\InfrastructureGeneral\\Utilites\\Functions\\Password\\BCryptPasswordHashingAlgorithm.cs",
+              "RelativeDocumentMoniker": "InfrastructureGeneral\\Utilites\\Functions\\Password\\BCryptPasswordHashingAlgorithm.cs",
+              "ToolTip": "C:\\Users\\sasha\\Desktop\\BackendAPI\\InfrastructureGeneral\\Utilites\\Functions\\Password\\BCryptPasswordHashingAlgorithm.cs",
+              "RelativeToolTip": "InfrastructureGeneral\\Utilites\\Functions\\Password\\BCryptPasswordHashingAlgorithm.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T12:16:57.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FileContent.cs",
+              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\BackendAPI\\InfrastructureGeneral\\Utilites\\Files\\FileContent.cs",
+              "RelativeDocumentMoniker": "InfrastructureGeneral\\Utilites\\Files\\FileContent.cs",
+              "ToolTip": "C:\\Users\\sasha\\Desktop\\BackendAPI\\InfrastructureGeneral\\Utilites\\Files\\FileContent.cs",
+              "RelativeToolTip": "InfrastructureGeneral\\Utilites\\Files\\FileContent.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwDcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T09:33:27.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Code.cs",
+              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\BackendAPI\\InfrastructureGeneral\\Utilites\\Functions\\Code.cs",
+              "RelativeDocumentMoniker": "InfrastructureGeneral\\Utilites\\Functions\\Code.cs",
+              "ToolTip": "C:\\Users\\sasha\\Desktop\\BackendAPI\\InfrastructureGeneral\\Utilites\\Functions\\Code.cs",
+              "RelativeToolTip": "InfrastructureGeneral\\Utilites\\Functions\\Code.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T09:26:55.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "JSONFile.cs",
+              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\BackendAPI\\InfrastructureGeneral\\Utilites\\Files\\JSONFile.cs",
+              "RelativeDocumentMoniker": "InfrastructureGeneral\\Utilites\\Files\\JSONFile.cs",
+              "ToolTip": "C:\\Users\\sasha\\Desktop\\BackendAPI\\InfrastructureGeneral\\Utilites\\Files\\JSONFile.cs",
+              "RelativeToolTip": "InfrastructureGeneral\\Utilites\\Files\\JSONFile.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBgAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T08:40:25.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DataAccessGeneral\\Repository\\RepositoryBase.cs",
+              "RelativeDocumentMoniker": "DataAccessGeneral\\Repository\\RepositoryBase.cs",
+              "ToolTip": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DataAccessGeneral\\Repository\\RepositoryBase.cs",
+              "RelativeToolTip": "DataAccessGeneral\\Repository\\RepositoryBase.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAkwBMAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T19:05:52.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\BackendAPI\\RegistrationApi\\Program.cs",
+              "RelativeDocumentMoniker": "RegistrationApi\\Program.cs",
+              "ToolTip": "C:\\Users\\sasha\\Desktop\\BackendAPI\\RegistrationApi\\Program.cs",
+              "RelativeToolTip": "RegistrationApi\\Program.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAowBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T18:39:32.422Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainRegistration\\Interface\\DataAccess\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "DomainRegistration\\Interface\\DataAccess\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainRegistration\\Interface\\DataAccess\\IUserRepository.cs",
-              "RelativeToolTip": "DomainRegistration\\Interface\\DataAccess\\IUserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\BackendAPI\\BusinessLogicRegistration\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicRegistration\\Service\\UserService.cs",
+              "ToolTip": "C:\\Users\\sasha\\Desktop\\BackendAPI\\BusinessLogicRegistration\\Service\\UserService.cs",
+              "RelativeToolTip": "BusinessLogicRegistration\\Service\\UserService.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAwCgAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T22:10:42.561Z",
+              "WhenOpened": "2024-10-13T18:31:17.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegistrationController.cs",
+              "DocumentMoniker": "C:\\Users\\sasha\\Desktop\\BackendAPI\\RegistrationApi\\Controllers\\RegistrationController.cs",
+              "RelativeDocumentMoniker": "RegistrationApi\\Controllers\\RegistrationController.cs",
+              "ToolTip": "C:\\Users\\sasha\\Desktop\\BackendAPI\\RegistrationApi\\Controllers\\RegistrationController.cs",
+              "RelativeToolTip": "RegistrationApi\\Controllers\\RegistrationController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAgwBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T18:29:44.754Z",
               "EditorCaption": ""
             }
           ]

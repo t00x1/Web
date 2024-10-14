@@ -8,6 +8,7 @@ using System.Text;
 using Registration.Domain.Interfaces.DataAccess;
 using Registration.Domain.Interfaces.Wrapper;
 using Registration.DataAccess.Repositories;
+using DomainRegistration.Interface.DataAccess;
 
 namespace Registration.DataAccess.Wrapper
 {
@@ -15,6 +16,7 @@ namespace Registration.DataAccess.Wrapper
     {
         private InspireoContext _repoContext;
         private IUserRepository _user;
+        private EmailConfirmRepository _emailConfirmRepository;
         
         public IUserRepository User
         {
@@ -28,7 +30,19 @@ namespace Registration.DataAccess.Wrapper
                 return _user;
             }
         }
-       
+        public IEmailConfirmRepository Email
+        {
+            get
+            {
+                if (_emailConfirmRepository == null)
+                {
+                    _emailConfirmRepository = new EmailConfirmRepository(_repoContext);
+                    return _emailConfirmRepository;
+                }
+                return _emailConfirmRepository;
+            }
+        }
+
         public RepositoryWrapper(InspireoContext repositoryConext)
         {
             _repoContext = repositoryConext;
