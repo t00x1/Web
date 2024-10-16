@@ -9,19 +9,19 @@ using Microsoft.Extensions.Logging;
 using Registration.BusinessLogic.Service;
 using Registration.Domain.Interfaces.Service;
 using Registration.Domain.Interfaces.Wrapper;
-using Registration.DataAccess.Wrapper;
+
 using InfrastructureGeneral.Settings;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Добавьте сервисы в контейнер
+// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 builder.Services.AddGrpc();
 builder.Services.AddLogging();
 
-// Регистрация IUserLogic как сервиса (предполагается, что у вас есть его реализация)
+// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ IUserLogic пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅ пїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ)
 builder.Services.AddScoped<IUserLogic, UserLogic>();
 
-// Регистрация DbContext
+// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ DbContext
 builder.Services.AddDbContext<InspireoContext>(option =>
     option.UseSqlServer("Server=DESKTOP-3F0EBO4;Database=Inspireo;Trusted_Connection=True;TrustServerCertificate=True;"));
 
@@ -29,12 +29,12 @@ builder.Services.AddDbContext<InspireoContext>(option =>
 
 builder.Services.AddSingleton<SettingRead>();
 
-// Регистрация IRepositoryWrapper
+// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ IRepositoryWrapper
 builder.Services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
 
 var app = builder.Build();
 
-// Настройка конвейера HTTP-запросов
+// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ HTTP-пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 app.MapGrpcService<AccountService>();
 
 app.MapGet("/", () => "Communication with gRPC endpoints must be made through a gRPC client. To learn how to create a client, visit: https://go.microsoft.com/fwlink/?linkid=2086909");

@@ -1,7 +1,8 @@
 ﻿using DataAccess.ModelsDB;
-using DataAccessGeneral.Repository;
+using Registration.DataAccess.Repositories;
 using Registration.Domain.Interfaces.DataAccess;
 using DomainRegistration.Interface.DataAccess;
+using DataAccessGeneral.Repository;
 namespace Registration.DataAccess.Repositories
 
 {

@@ -45,14 +45,12 @@ C:\Users\sasha\Desktop\micro\Web\BusinessLogicRegistration\obj\Debug\net8.0\ref\
 C:\Users\sasha\Desktop\micro\Web\Identity\BusinessLogicRegistration\bin\Debug\net8.0\BusinessLogicRegistration.deps.json
 C:\Users\sasha\Desktop\micro\Web\Identity\BusinessLogicRegistration\bin\Debug\net8.0\BusinessLogicRegistration.dll
 C:\Users\sasha\Desktop\micro\Web\Identity\BusinessLogicRegistration\bin\Debug\net8.0\BusinessLogicRegistration.pdb
-C:\Users\sasha\Desktop\micro\Web\Identity\BusinessLogicRegistration\bin\Debug\net8.0\DataAccessGeneral.dll
 C:\Users\sasha\Desktop\micro\Web\Identity\BusinessLogicRegistration\bin\Debug\net8.0\DomainGeneral.dll
 C:\Users\sasha\Desktop\micro\Web\Identity\BusinessLogicRegistration\bin\Debug\net8.0\DomainRegistration.dll
 C:\Users\sasha\Desktop\micro\Web\Identity\BusinessLogicRegistration\bin\Debug\net8.0\InfrastructureGeneral.dll
 C:\Users\sasha\Desktop\micro\Web\Identity\BusinessLogicRegistration\bin\Debug\net8.0\DomainGeneral.pdb
 C:\Users\sasha\Desktop\micro\Web\Identity\BusinessLogicRegistration\bin\Debug\net8.0\DomainRegistration.pdb
 C:\Users\sasha\Desktop\micro\Web\Identity\BusinessLogicRegistration\bin\Debug\net8.0\InfrastructureGeneral.pdb
-C:\Users\sasha\Desktop\micro\Web\Identity\BusinessLogicRegistration\bin\Debug\net8.0\DataAccessGeneral.pdb
 C:\Users\sasha\Desktop\micro\Web\Identity\BusinessLogicRegistration\obj\Debug\net8.0\BusinessLogicRegistration.csproj.AssemblyReference.cache
 C:\Users\sasha\Desktop\micro\Web\Identity\BusinessLogicRegistration\obj\Debug\net8.0\BusinessLogicRegistration.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\sasha\Desktop\micro\Web\Identity\BusinessLogicRegistration\obj\Debug\net8.0\BusinessLogicRegistration.AssemblyInfoInputs.cache

@@ -24,12 +24,10 @@ C:\Users\sasha\Desktop\micro\Web\DataAccesss\bin\Debug\net8.0\DataAccesss.deps.j
 C:\Users\sasha\Desktop\micro\Web\DataAccesss\bin\Debug\net8.0\DataAccesss.runtimeconfig.json
 C:\Users\sasha\Desktop\micro\Web\DataAccesss\bin\Debug\net8.0\DataAccesss.dll
 C:\Users\sasha\Desktop\micro\Web\DataAccesss\bin\Debug\net8.0\DataAccesss.pdb
-C:\Users\sasha\Desktop\micro\Web\DataAccesss\bin\Debug\net8.0\DataAccessGeneral.dll
 C:\Users\sasha\Desktop\micro\Web\DataAccesss\bin\Debug\net8.0\DomainGeneral.dll
 C:\Users\sasha\Desktop\micro\Web\DataAccesss\bin\Debug\net8.0\DomainRegistration.dll
 C:\Users\sasha\Desktop\micro\Web\DataAccesss\bin\Debug\net8.0\DomainGeneral.pdb
 C:\Users\sasha\Desktop\micro\Web\DataAccesss\bin\Debug\net8.0\DomainRegistration.pdb
-C:\Users\sasha\Desktop\micro\Web\DataAccesss\bin\Debug\net8.0\DataAccessGeneral.pdb
 C:\Users\sasha\Desktop\micro\Web\DataAccesss\obj\Debug\net8.0\DataAccesss.csproj.AssemblyReference.cache
 C:\Users\sasha\Desktop\micro\Web\DataAccesss\obj\Debug\net8.0\DataAccesss.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\sasha\Desktop\micro\Web\DataAccesss\obj\Debug\net8.0\DataAccesss.AssemblyInfoInputs.cache

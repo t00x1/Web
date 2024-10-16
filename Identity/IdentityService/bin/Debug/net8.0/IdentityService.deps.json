@@ -9,7 +9,7 @@
       "IdentityService/1.0.0": {
         "dependencies": {
           "BusinessLogicRegistration": "1.0.0",
-          "DataAccessGeneral": "1.0.0",
+          "DataAccessRegistration": "1.0.0",
           "DataAccesss": "1.0.0",
           "DomainGeneral": "1.0.0",
           "Google.Protobuf": "3.23.1",
@@ -657,13 +657,17 @@
           "BusinessLogicRegistration.dll": {}
         }
       },
-      "DataAccessGeneral/1.0.0": {
+      "DataAccessRegistration/1.0.0": {
         "dependencies": {
+          "BusinessLogicRegistration": "1.0.0",
+          "DataAccesss": "1.0.0",
           "DomainGeneral": "1.0.0",
+          "InfrastructureGeneral": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "8.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.10"
         },
         "runtime": {
-          "DataAccessGeneral.dll": {}
+          "DataAccessRegistration.dll": {}
         }
       },
       "DataAccesss/1.0.0": {
@@ -683,7 +687,6 @@
       },
       "DomainRegistration/1.0.0": {
         "dependencies": {
-          "DataAccessGeneral": "1.0.0",
           "DomainGeneral": "1.0.0"
         },
         "runtime": {
@@ -1181,7 +1184,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "DataAccessGeneral/1.0.0": {
+    "DataAccessRegistration/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

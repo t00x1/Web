@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DomainGeneral\DomainGeneral.csproj" />
+
     <ProjectReference Include="..\Identity\DomainRegistration\DomainRegistration.csproj" />
   </ItemGroup>
 

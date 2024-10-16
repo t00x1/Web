@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using DomainGeneral.Interfaces.Repository.DataAccess;
 using System.Linq;
 using System.Linq.Expressions;
+using DataAccess.ModelsDB;
 
 namespace DataAccessGeneral.Repository
 {
