@@ -4,12 +4,12 @@
     "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\IdentityService\\IdentityService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sasha\\Desktop\\micro\\Web\\DataAccessGeneral\\DataAccesss.csproj": {
+    "C:\\Users\\sasha\\Desktop\\micro\\Web\\DataAccessGeneral\\DataAccessGeneral.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sasha\\Desktop\\micro\\Web\\DataAccessGeneral\\DataAccesss.csproj",
-        "projectName": "DataAccesss",
-        "projectPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\DataAccessGeneral\\DataAccesss.csproj",
+        "projectUniqueName": "C:\\Users\\sasha\\Desktop\\micro\\Web\\DataAccessGeneral\\DataAccessGeneral.csproj",
+        "projectName": "DataAccessGeneral",
+        "projectPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\DataAccessGeneral\\DataAccessGeneral.csproj",
         "packagesPath": "C:\\Users\\sasha\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\DataAccessGeneral\\obj\\",
         "projectStyle": "PackageReference",
@@ -142,12 +142,12 @@
         }
       }
     },
-    "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\BusinessLogicIdentity\\BusinessLogicRegistration.csproj": {
+    "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\BusinessLogicIdentity\\BusinessLogicIdentity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\BusinessLogicIdentity\\BusinessLogicRegistration.csproj",
-        "projectName": "BusinessLogicRegistration",
-        "projectPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\BusinessLogicIdentity\\BusinessLogicRegistration.csproj",
+        "projectUniqueName": "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\BusinessLogicIdentity\\BusinessLogicIdentity.csproj",
+        "projectName": "BusinessLogicIdentity",
+        "projectPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\BusinessLogicIdentity\\BusinessLogicIdentity.csproj",
         "packagesPath": "C:\\Users\\sasha\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\BusinessLogicIdentity\\obj\\",
         "projectStyle": "PackageReference",
@@ -170,8 +170,8 @@
               "C:\\Users\\sasha\\Desktop\\micro\\Web\\DomainGeneral\\DomainGeneral.csproj": {
                 "projectPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\DomainGeneral\\DomainGeneral.csproj"
               },
-              "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\DomainIdentity\\DomainRegistration.csproj": {
-                "projectPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\DomainIdentity\\DomainRegistration.csproj"
+              "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\DomainIdentity\\DomainIdentity.csproj": {
+                "projectPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\DomainIdentity\\DomainIdentity.csproj"
               },
               "C:\\Users\\sasha\\Desktop\\micro\\Web\\InfrastructureGeneral\\InfrastructureGeneral.csproj": {
                 "projectPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\InfrastructureGeneral\\InfrastructureGeneral.csproj"
@@ -213,12 +213,12 @@
         }
       }
     },
-    "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\DataAccessIdentity\\DataAccessRegistration.csproj": {
+    "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\DataAccessIdentity\\DataAccessIdentity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\DataAccessIdentity\\DataAccessRegistration.csproj",
-        "projectName": "DataAccessRegistration",
-        "projectPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\DataAccessIdentity\\DataAccessRegistration.csproj",
+        "projectUniqueName": "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\DataAccessIdentity\\DataAccessIdentity.csproj",
+        "projectName": "DataAccessIdentity",
+        "projectPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\DataAccessIdentity\\DataAccessIdentity.csproj",
         "packagesPath": "C:\\Users\\sasha\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\DataAccessIdentity\\obj\\",
         "projectStyle": "PackageReference",
@@ -238,14 +238,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\sasha\\Desktop\\micro\\Web\\DataAccessGeneral\\DataAccesss.csproj": {
-                "projectPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\DataAccessGeneral\\DataAccesss.csproj"
+              "C:\\Users\\sasha\\Desktop\\micro\\Web\\DataAccessGeneral\\DataAccessGeneral.csproj": {
+                "projectPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\DataAccessGeneral\\DataAccessGeneral.csproj"
               },
               "C:\\Users\\sasha\\Desktop\\micro\\Web\\DomainGeneral\\DomainGeneral.csproj": {
                 "projectPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\DomainGeneral\\DomainGeneral.csproj"
               },
-              "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\DomainIdentity\\DomainRegistration.csproj": {
-                "projectPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\DomainIdentity\\DomainRegistration.csproj"
+              "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\DomainIdentity\\DomainIdentity.csproj": {
+                "projectPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\DomainIdentity\\DomainIdentity.csproj"
               },
               "C:\\Users\\sasha\\Desktop\\micro\\Web\\InfrastructureGeneral\\InfrastructureGeneral.csproj": {
                 "projectPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\InfrastructureGeneral\\InfrastructureGeneral.csproj"
@@ -303,12 +303,12 @@
         }
       }
     },
-    "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\DomainIdentity\\DomainRegistration.csproj": {
+    "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\DomainIdentity\\DomainIdentity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\DomainIdentity\\DomainRegistration.csproj",
-        "projectName": "DomainRegistration",
-        "projectPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\DomainIdentity\\DomainRegistration.csproj",
+        "projectUniqueName": "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\DomainIdentity\\DomainIdentity.csproj",
+        "projectName": "DomainIdentity",
+        "projectPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\DomainIdentity\\DomainIdentity.csproj",
         "packagesPath": "C:\\Users\\sasha\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\DomainIdentity\\obj\\",
         "projectStyle": "PackageReference",
@@ -393,20 +393,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\sasha\\Desktop\\micro\\Web\\DataAccessGeneral\\DataAccesss.csproj": {
-                "projectPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\DataAccessGeneral\\DataAccesss.csproj"
-              },
               "C:\\Users\\sasha\\Desktop\\micro\\Web\\DomainGeneral\\DomainGeneral.csproj": {
                 "projectPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\DomainGeneral\\DomainGeneral.csproj"
               },
-              "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\BusinessLogicIdentity\\BusinessLogicRegistration.csproj": {
-                "projectPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\BusinessLogicIdentity\\BusinessLogicRegistration.csproj"
+              "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\BusinessLogicIdentity\\BusinessLogicIdentity.csproj": {
+                "projectPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\BusinessLogicIdentity\\BusinessLogicIdentity.csproj"
               },
-              "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\DataAccessIdentity\\DataAccessRegistration.csproj": {
-                "projectPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\DataAccessIdentity\\DataAccessRegistration.csproj"
-              },
-              "C:\\Users\\sasha\\Desktop\\micro\\Web\\InfrastructureGeneral\\InfrastructureGeneral.csproj": {
-                "projectPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\InfrastructureGeneral\\InfrastructureGeneral.csproj"
+              "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\DataAccessIdentity\\DataAccessIdentity.csproj": {
+                "projectPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\DataAccessIdentity\\DataAccessIdentity.csproj"
               }
             }
           }

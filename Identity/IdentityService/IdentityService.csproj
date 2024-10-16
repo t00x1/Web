@@ -29,11 +29,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BusinessLogicIdentity\BusinessLogicRegistration.csproj" />
-    <ProjectReference Include="..\DataAccessIdentity\DataAccessRegistration.csproj" />
-    <ProjectReference Include="..\..\DataAccessGeneral\DataAccesss.csproj" />
+    <ProjectReference Include="..\BusinessLogicIdentity\BusinessLogicIdentity.csproj" />
+    <ProjectReference Include="..\DataAccessIdentity\DataAccessIdentity.csproj" />
+    <ProjectReference Include="..\..\DataAccessGeneral\DataAccessIdentity.csproj" />
     <ProjectReference Include="..\..\DomainGeneral\DomainGeneral.csproj" />
-    <ProjectReference Include="..\..\InfrastructureGeneral\InfrastructureGeneral.csproj" />
+    <ProjectReference Include="..\..\InfrastructureGeneral\InfrastructureIdentity.csproj" />
   </ItemGroup>
 
 </Project>

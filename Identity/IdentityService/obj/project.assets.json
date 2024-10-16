@@ -1162,51 +1162,51 @@
           }
         }
       },
-      "BusinessLogicRegistration/1.0.0": {
+      "BusinessLogicIdentity/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "DomainGeneral": "1.0.0",
-          "DomainRegistration": "1.0.0",
+          "DomainIdentity": "1.0.0",
           "InfrastructureGeneral": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/BusinessLogicRegistration.dll": {}
+          "bin/placeholder/BusinessLogicIdentity.dll": {}
         },
         "runtime": {
-          "bin/placeholder/BusinessLogicRegistration.dll": {}
+          "bin/placeholder/BusinessLogicIdentity.dll": {}
         }
       },
-      "DataAccessRegistration/1.0.0": {
+      "DataAccessGeneral/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "DataAccesss": "1.0.0",
           "DomainGeneral": "1.0.0",
-          "DomainRegistration": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.10"
+        },
+        "compile": {
+          "bin/placeholder/DataAccessGeneral.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccessGeneral.dll": {}
+        }
+      },
+      "DataAccessIdentity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "DataAccessGeneral": "1.0.0",
+          "DomainGeneral": "1.0.0",
+          "DomainIdentity": "1.0.0",
           "InfrastructureGeneral": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.10"
         },
         "compile": {
-          "bin/placeholder/DataAccessRegistration.dll": {}
+          "bin/placeholder/DataAccessIdentity.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DataAccessRegistration.dll": {}
-        }
-      },
-      "DataAccesss/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "DomainGeneral": "1.0.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.10"
-        },
-        "compile": {
-          "bin/placeholder/DataAccesss.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DataAccesss.dll": {}
+          "bin/placeholder/DataAccessIdentity.dll": {}
         }
       },
       "DomainGeneral/1.0.0": {
@@ -1219,17 +1219,17 @@
           "bin/placeholder/DomainGeneral.dll": {}
         }
       },
-      "DomainRegistration/1.0.0": {
+      "DomainIdentity/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "DomainGeneral": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/DomainRegistration.dll": {}
+          "bin/placeholder/DomainIdentity.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DomainRegistration.dll": {}
+          "bin/placeholder/DomainIdentity.dll": {}
         }
       },
       "InfrastructureGeneral/1.0.0": {
@@ -3372,30 +3372,30 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "BusinessLogicRegistration/1.0.0": {
+    "BusinessLogicIdentity/1.0.0": {
       "type": "project",
-      "path": "../BusinessLogicIdentity/BusinessLogicRegistration.csproj",
-      "msbuildProject": "../BusinessLogicIdentity/BusinessLogicRegistration.csproj"
+      "path": "../BusinessLogicIdentity/BusinessLogicIdentity.csproj",
+      "msbuildProject": "../BusinessLogicIdentity/BusinessLogicIdentity.csproj"
     },
-    "DataAccessRegistration/1.0.0": {
+    "DataAccessGeneral/1.0.0": {
       "type": "project",
-      "path": "../DataAccessIdentity/DataAccessRegistration.csproj",
-      "msbuildProject": "../DataAccessIdentity/DataAccessRegistration.csproj"
+      "path": "../../DataAccessGeneral/DataAccessGeneral.csproj",
+      "msbuildProject": "../../DataAccessGeneral/DataAccessGeneral.csproj"
     },
-    "DataAccesss/1.0.0": {
+    "DataAccessIdentity/1.0.0": {
       "type": "project",
-      "path": "../../DataAccessGeneral/DataAccesss.csproj",
-      "msbuildProject": "../../DataAccessGeneral/DataAccesss.csproj"
+      "path": "../DataAccessIdentity/DataAccessIdentity.csproj",
+      "msbuildProject": "../DataAccessIdentity/DataAccessIdentity.csproj"
     },
     "DomainGeneral/1.0.0": {
       "type": "project",
       "path": "../../DomainGeneral/DomainGeneral.csproj",
       "msbuildProject": "../../DomainGeneral/DomainGeneral.csproj"
     },
-    "DomainRegistration/1.0.0": {
+    "DomainIdentity/1.0.0": {
       "type": "project",
-      "path": "../DomainIdentity/DomainRegistration.csproj",
-      "msbuildProject": "../DomainIdentity/DomainRegistration.csproj"
+      "path": "../DomainIdentity/DomainIdentity.csproj",
+      "msbuildProject": "../DomainIdentity/DomainIdentity.csproj"
     },
     "InfrastructureGeneral/1.0.0": {
       "type": "project",
@@ -3405,14 +3405,12 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "BusinessLogicRegistration >= 1.0.0",
-      "DataAccessRegistration >= 1.0.0",
-      "DataAccesss >= 1.0.0",
+      "BusinessLogicIdentity >= 1.0.0",
+      "DataAccessIdentity >= 1.0.0",
       "DomainGeneral >= 1.0.0",
       "Google.Protobuf >= 3.23.1",
       "Grpc.AspNetCore >= 2.57.0",
       "Grpc.Tools >= 2.57.0",
-      "InfrastructureGeneral >= 1.0.0",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.20.1"
     ]
   },
@@ -3444,20 +3442,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\sasha\\Desktop\\micro\\Web\\DataAccessGeneral\\DataAccesss.csproj": {
-              "projectPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\DataAccessGeneral\\DataAccesss.csproj"
-            },
             "C:\\Users\\sasha\\Desktop\\micro\\Web\\DomainGeneral\\DomainGeneral.csproj": {
               "projectPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\DomainGeneral\\DomainGeneral.csproj"
             },
-            "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\BusinessLogicIdentity\\BusinessLogicRegistration.csproj": {
-              "projectPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\BusinessLogicIdentity\\BusinessLogicRegistration.csproj"
+            "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\BusinessLogicIdentity\\BusinessLogicIdentity.csproj": {
+              "projectPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\BusinessLogicIdentity\\BusinessLogicIdentity.csproj"
             },
-            "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\DataAccessIdentity\\DataAccessRegistration.csproj": {
-              "projectPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\DataAccessIdentity\\DataAccessRegistration.csproj"
-            },
-            "C:\\Users\\sasha\\Desktop\\micro\\Web\\InfrastructureGeneral\\InfrastructureGeneral.csproj": {
-              "projectPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\InfrastructureGeneral\\InfrastructureGeneral.csproj"
+            "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\DataAccessIdentity\\DataAccessIdentity.csproj": {
+              "projectPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\DataAccessIdentity\\DataAccessIdentity.csproj"
             }
           }
         }
