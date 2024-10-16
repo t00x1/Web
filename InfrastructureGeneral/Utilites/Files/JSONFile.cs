@@ -1,10 +1,10 @@
-﻿using DomainGeneral.Interfaces.Infrastructure.Utilites.Files;
+﻿using DomainGeneral;
 using System;
 using System.IO;
 using System.Text;
 using System.Text.Json;
 
-namespace InfrastructureGeneral.Utilites.Files
+namespace InfrastructureGeneral
 {
     public class JSONFile<T> : IStructFile<T> where T : class
     {

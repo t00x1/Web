@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DomainGeneral.Email
+namespace DomainGeneral
 {
     public interface ICodeEmail
     {

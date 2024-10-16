@@ -1,5 +1,5 @@
-﻿using DomainGeneral.Interfaces.Infrastructure.Utilites.Files;
-using InfrastructureGeneral.Utilites.Files;
+﻿using DomainGeneral;
+using InfrastructureGeneral;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 
-namespace InfrastructureGeneral.Settings
+namespace InfrastructureGeneral
 {
     public class SettingRead
 

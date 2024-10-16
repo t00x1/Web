@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "NLfv1k1kmfI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\BusinessLogicIdentity\\BusinessLogicIdentity.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sasha\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

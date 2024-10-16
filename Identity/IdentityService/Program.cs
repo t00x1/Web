@@ -6,11 +6,14 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using Registration.BusinessLogic.Service;
-using Registration.Domain.Interfaces.Service;
-using Registration.Domain.Interfaces.Wrapper;
-using Registration.DataAccess.Wrapper;
-using InfrastructureGeneral.Settings;
+using DomainGeneral;
+using DomainIdentity;
+using DataAccessGeneral;
+using BusinessLogicIdentity;
+using DataAccessIdentity;
+
+
+using InfrastructureGeneral;
 
 var builder = WebApplication.CreateBuilder(args);
 

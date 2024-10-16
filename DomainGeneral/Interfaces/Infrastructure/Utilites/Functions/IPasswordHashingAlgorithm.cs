@@ -1,4 +1,4 @@
-﻿namespace DomainGeneral.Utilites.Functions
+﻿namespace DomainGeneral
 {
     public interface IPasswordHashingAlgorithm
     {

@@ -1,9 +1,9 @@
-﻿using DomainGeneral.Email;
+﻿using DomainGeneral;
 using System;
 using System.Net;
 using System.Net.Mail;
 
-namespace InfrastructureGeneral.Email
+namespace InfrastructureGeneral
 {
     public class EmailYandex : ICodeEmail
     {

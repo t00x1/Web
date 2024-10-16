@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DomainGeneral.Infrastructure.Utilities.Functions
+namespace DomainGeneral
 {
     public interface ICode
     {

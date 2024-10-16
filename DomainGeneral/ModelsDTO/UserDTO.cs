@@ -1,4 +1,4 @@
-﻿namespace DomainGeneral.ModelsDTO
+﻿namespace DomainGeneral
 {
     public class Userdto
     {

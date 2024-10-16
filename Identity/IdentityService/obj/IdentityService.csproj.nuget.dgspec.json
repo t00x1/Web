@@ -393,6 +393,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\Users\\sasha\\Desktop\\micro\\Web\\DataAccessGeneral\\DataAccessGeneral.csproj": {
+                "projectPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\DataAccessGeneral\\DataAccessGeneral.csproj"
+              },
               "C:\\Users\\sasha\\Desktop\\micro\\Web\\DomainGeneral\\DomainGeneral.csproj": {
                 "projectPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\DomainGeneral\\DomainGeneral.csproj"
               },
@@ -401,6 +404,12 @@
               },
               "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\DataAccessIdentity\\DataAccessIdentity.csproj": {
                 "projectPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\DataAccessIdentity\\DataAccessIdentity.csproj"
+              },
+              "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\DomainIdentity\\DomainIdentity.csproj": {
+                "projectPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\DomainIdentity\\DomainIdentity.csproj"
+              },
+              "C:\\Users\\sasha\\Desktop\\micro\\Web\\InfrastructureGeneral\\InfrastructureGeneral.csproj": {
+                "projectPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\InfrastructureGeneral\\InfrastructureGeneral.csproj"
               }
             }
           }

@@ -8,7 +8,7 @@ using System.Text;
 
 using System.Threading.Tasks;
 
-namespace DomainGeneral.Interfaces.Repository.DataAccess
+namespace DomainGeneral
 {
     public interface IRepositoryBase<T>
     {

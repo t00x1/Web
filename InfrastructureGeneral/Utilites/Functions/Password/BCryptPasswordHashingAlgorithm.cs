@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using DomainGeneral.Utilites.Functions;
+using DomainGeneral;
 
-namespace InfrastructureGeneral.Utilites.Functions
+namespace InfrastructureGeneral
 {
     public class BCryptPasswordHashingAlgorithm : IPasswordHashingAlgorithm
     {

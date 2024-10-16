@@ -1,11 +1,11 @@
-﻿using Infrastructure.Utilities.Functions;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using DomainGeneral.Infrastructure.Utilities.Functions;
-namespace InfrastructureGeneral.Utilites.Functions
+using DomainGeneral;
+namespace InfrastructureGeneral
 {
     public  class Code : ICode
     {

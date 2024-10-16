@@ -1,8 +1,8 @@
 ﻿using Grpc.Core;
 using Microsoft.Extensions.Logging;
-using DomainGeneral.ModelsDTO;
-using Registration.Domain.Interfaces.Service;
 
+using DomainGeneral;
+using DomainIdentity;
 namespace IdentityService.Services
 {
     public class AccountService : Account.AccountBase

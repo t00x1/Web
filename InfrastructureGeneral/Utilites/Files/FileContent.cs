@@ -2,7 +2,7 @@
 using System.IO;
 using System.Text;
 
-namespace InfrastructureGeneral.Utilites.Files
+namespace InfrastructureGeneral
 {
     public class FileContent
     {

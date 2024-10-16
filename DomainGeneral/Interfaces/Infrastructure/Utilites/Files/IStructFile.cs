@@ -1,4 +1,4 @@
-﻿namespace DomainGeneral.Interfaces.Infrastructure.Utilites.Files
+﻿namespace DomainGeneral
 {
     public interface IStructFile<T> where T : class
     {
