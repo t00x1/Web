@@ -1,0 +1,33 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "IdentityService";
+
+package registration;
+
+
+
+// Сообщения
+
+
+message UserDataRequest {
+    string username = 1;
+    string name = 2;
+    string surname = 3;
+    string patronymic = 4;
+    string password = 5;
+    string email = 6;
+    bool male = 7;
+
+}
+
+
+message RegistrationResponde {
+    bool success = 1;
+    string message = 2;
+}
+
+// gRPC сервис
+service Account {
+ 
+    rpc Registration(UserDataRequest) returns (RegistrationResponde);
+}

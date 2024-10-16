@@ -10,7 +10,12 @@ using System.Xml;
 namespace InfrastructureGeneral.Settings
 {
     public class SettingRead
+
     {
+        public SettingRead()
+        {
+
+        }
         SettingsModel _settings;
         public SettingsModel Settings
         {
@@ -20,7 +25,8 @@ namespace InfrastructureGeneral.Settings
                 {
                     if (_settings == null)
                     {
-                        IStructFile<SettingsModel> structFile =  new JSONFile<SettingsModel>("../Settings.json");
+                        
+                        IStructFile<SettingsModel> structFile =  new JSONFile<SettingsModel>("../../../Settings.json");
                         structFile.Read();
                         _settings = structFile.Model;
                     }

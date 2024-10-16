@@ -1,5 +1,4 @@
-﻿using InfrastructureGeneral.Utilites.Functions;
-using System;
+﻿using System;
 using System.IO;
 using System.Text;
 
@@ -7,16 +6,26 @@ namespace InfrastructureGeneral.Utilites.Files
 {
     public class FileContent
     {
-        public string ReadFile(string path)
+        public string ReadFile(string relativePath)
         {
             // Проверка входного параметра
-            if (string.IsNullOrWhiteSpace(path))
+            if (string.IsNullOrWhiteSpace(relativePath))
             {
-                throw new ArgumentNullException(nameof(path), "Путь не может быть пустым или null.");
+                throw new ArgumentNullException(nameof(relativePath), "Путь не может быть пустым или null.");
             }
 
-            string fullPath = Path.GetFullPath(path);
-            Console.WriteLine("Полный путь к файлу: " + fullPath);
+            // Получение базового пути, который корректен для всех платформ
+            string basePath = AppDomain.CurrentDomain.BaseDirectory;
+
+            // Получаем полный путь, комбинируя базовый и относительный пути
+            string fullPath = Path.Combine(basePath, relativePath);
+            Console.WriteLine(fullPath);
+
+            // Проверяем, существует ли файл
+            if (!File.Exists(fullPath))
+            {
+                throw new FileNotFoundException($"Файл по пути {fullPath} не найден.");
+            }
 
             try
             {
@@ -26,29 +35,13 @@ namespace InfrastructureGeneral.Utilites.Files
                     return reader.ReadToEnd();
                 }
             }
-            catch (FileNotFoundException ex)
-            {
-                throw new FileNotFoundException("Файл не найден.", ex);
-            }
             catch (UnauthorizedAccessException ex)
             {
                 throw new UnauthorizedAccessException("Доступ к файлу запрещён.", ex);
             }
-            catch (DirectoryNotFoundException ex)
-            {
-                throw new DirectoryNotFoundException("Директория не найдена.", ex);
-            }
-            catch (PathTooLongException ex)
-            {
-                throw new PathTooLongException("Путь к файлу слишком длинный.", ex);
-            }
             catch (IOException ex)
             {
                 throw new IOException("Ошибка при чтении файла.", ex);
-            }
-            catch (Exception ex)
-            {
-                throw new Exception("Неизвестная ошибка при чтении файла.", ex);
             }
         }
     }

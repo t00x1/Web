@@ -23,9 +23,9 @@ public partial class User
 
     public string? Avatar { get; set; }
 
-    public DateTime BirthDate { get; set; }
+    public DateTime? BirthDate { get; set; }
 
-    public string? Email { get; set; }
+    public string Email { get; set; } = null!;
 
     public string? Location { get; set; }
 

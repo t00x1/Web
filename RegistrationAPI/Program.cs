@@ -25,7 +25,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<InspireoContext>(option =>
     option.UseSqlServer("Server=DESKTOP-3F0EBO4;Database=Inspireo;Trusted_Connection=True;TrustServerCertificate=True;"));
 builder.Services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
-builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IUserService, UserLogic>();
 
 var app = builder.Build();
 
