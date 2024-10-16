@@ -29,9 +29,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BusinessLogicRegistration\BusinessLogicRegistration.csproj" />
-    <ProjectReference Include="..\DataAccessRegistration\DataAccessRegistration.csproj" />
-    <ProjectReference Include="..\..\DataAccesss\DataAccesss.csproj" />
+    <ProjectReference Include="..\BusinessLogicIdentity\BusinessLogicRegistration.csproj" />
+    <ProjectReference Include="..\DataAccessIdentity\DataAccessRegistration.csproj" />
+    <ProjectReference Include="..\..\DataAccessGeneral\DataAccesss.csproj" />
     <ProjectReference Include="..\..\DomainGeneral\DomainGeneral.csproj" />
     <ProjectReference Include="..\..\InfrastructureGeneral\InfrastructureGeneral.csproj" />
   </ItemGroup>

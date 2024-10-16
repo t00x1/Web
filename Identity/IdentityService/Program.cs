@@ -9,7 +9,7 @@ using Microsoft.Extensions.Logging;
 using Registration.BusinessLogic.Service;
 using Registration.Domain.Interfaces.Service;
 using Registration.Domain.Interfaces.Wrapper;
-
+using Registration.DataAccess.Wrapper;
 using InfrastructureGeneral.Settings;
 
 var builder = WebApplication.CreateBuilder(args);

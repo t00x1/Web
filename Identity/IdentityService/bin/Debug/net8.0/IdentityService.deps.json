@@ -659,9 +659,9 @@
       },
       "DataAccessRegistration/1.0.0": {
         "dependencies": {
-          "BusinessLogicRegistration": "1.0.0",
           "DataAccesss": "1.0.0",
           "DomainGeneral": "1.0.0",
+          "DomainRegistration": "1.0.0",
           "InfrastructureGeneral": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.10"
@@ -673,7 +673,6 @@
       "DataAccesss/1.0.0": {
         "dependencies": {
           "DomainGeneral": "1.0.0",
-          "DomainRegistration": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.10"
         },
         "runtime": {
