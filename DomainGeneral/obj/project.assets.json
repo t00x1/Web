@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainGeneral\\DomainGeneral.csproj",
+      "projectUniqueName": "C:\\Users\\sasha\\Desktop\\micro\\Web\\DomainGeneral\\DomainGeneral.csproj",
       "projectName": "DomainGeneral",
-      "projectPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainGeneral\\DomainGeneral.csproj",
+      "projectPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\DomainGeneral\\DomainGeneral.csproj",
       "packagesPath": "C:\\Users\\sasha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainGeneral\\obj\\",
+      "outputPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\DomainGeneral\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",

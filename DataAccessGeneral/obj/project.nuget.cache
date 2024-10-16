@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X74TvRGWIpM=",
+  "dgSpecHash": "DdM2kS/vs08=",
   "success": true,
-  "projectFilePath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DataAccessGeneral\\DataAccessGeneral.csproj",
+  "projectFilePath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\DataAccessGeneral\\DataAccessGeneral.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sasha\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\sasha\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

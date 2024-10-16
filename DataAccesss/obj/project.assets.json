@@ -4081,8 +4081,8 @@
     },
     "DomainRegistration/1.0.0": {
       "type": "project",
-      "path": "../DomainRegistration/DomainRegistration.csproj",
-      "msbuildProject": "../DomainRegistration/DomainRegistration.csproj"
+      "path": "../Identity/DomainRegistration/DomainRegistration.csproj",
+      "msbuildProject": "../Identity/DomainRegistration/DomainRegistration.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4099,11 +4099,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DataAccesss\\DataAccesss.csproj",
+      "projectUniqueName": "C:\\Users\\sasha\\Desktop\\micro\\Web\\DataAccesss\\DataAccesss.csproj",
       "projectName": "DataAccesss",
-      "projectPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DataAccesss\\DataAccesss.csproj",
+      "projectPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\DataAccesss\\DataAccesss.csproj",
       "packagesPath": "C:\\Users\\sasha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DataAccesss\\obj\\",
+      "outputPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\DataAccesss\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4121,11 +4121,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainGeneral\\DomainGeneral.csproj": {
-              "projectPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainGeneral\\DomainGeneral.csproj"
+            "C:\\Users\\sasha\\Desktop\\micro\\Web\\DomainGeneral\\DomainGeneral.csproj": {
+              "projectPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\DomainGeneral\\DomainGeneral.csproj"
             },
-            "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainRegistration\\DomainRegistration.csproj": {
-              "projectPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainRegistration\\DomainRegistration.csproj"
+            "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\DomainRegistration\\DomainRegistration.csproj": {
+              "projectPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\Identity\\DomainRegistration\\DomainRegistration.csproj"
             }
           }
         }

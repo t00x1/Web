@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4apCX79mj+c=",
+  "dgSpecHash": "m5LDOKeupEs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\InfrastructureGeneral\\InfrastructureGeneral.csproj",
+  "projectFilePath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\InfrastructureGeneral\\InfrastructureGeneral.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sasha\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512"
   ],

@@ -3417,11 +3417,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sasha\\Desktop\\BackendAPI\\RegistrationApi\\RegistrationApi.csproj",
+      "projectUniqueName": "C:\\Users\\sasha\\Desktop\\micro\\Web\\RegistrationApi\\RegistrationApi.csproj",
       "projectName": "RegistrationApi",
-      "projectPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\RegistrationApi\\RegistrationApi.csproj",
+      "projectPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\RegistrationApi\\RegistrationApi.csproj",
       "packagesPath": "C:\\Users\\sasha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\RegistrationApi\\obj\\",
+      "outputPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\RegistrationApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3439,17 +3439,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\sasha\\Desktop\\BackendAPI\\BusinessLogicRegistration\\BusinessLogicRegistration.csproj": {
-              "projectPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\BusinessLogicRegistration\\BusinessLogicRegistration.csproj"
+            "C:\\Users\\sasha\\Desktop\\micro\\Web\\BusinessLogicRegistration\\BusinessLogicRegistration.csproj": {
+              "projectPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\BusinessLogicRegistration\\BusinessLogicRegistration.csproj"
             },
-            "C:\\Users\\sasha\\Desktop\\BackendAPI\\DataAccesss\\DataAccesss.csproj": {
-              "projectPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DataAccesss\\DataAccesss.csproj"
+            "C:\\Users\\sasha\\Desktop\\micro\\Web\\DataAccesss\\DataAccesss.csproj": {
+              "projectPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\DataAccesss\\DataAccesss.csproj"
             },
-            "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainGeneral\\DomainGeneral.csproj": {
-              "projectPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainGeneral\\DomainGeneral.csproj"
+            "C:\\Users\\sasha\\Desktop\\micro\\Web\\DomainGeneral\\DomainGeneral.csproj": {
+              "projectPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\DomainGeneral\\DomainGeneral.csproj"
             },
-            "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainRegistration\\DomainRegistration.csproj": {
-              "projectPath": "C:\\Users\\sasha\\Desktop\\BackendAPI\\DomainRegistration\\DomainRegistration.csproj"
+            "C:\\Users\\sasha\\Desktop\\micro\\Web\\DomainRegistration\\DomainRegistration.csproj": {
+              "projectPath": "C:\\Users\\sasha\\Desktop\\micro\\Web\\DomainRegistration\\DomainRegistration.csproj"
             }
           }
         }
