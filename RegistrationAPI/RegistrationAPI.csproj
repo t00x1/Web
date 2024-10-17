@@ -14,10 +14,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BusinessLogicRegistration\BusinessLogicRegistration.csproj" />
-    <ProjectReference Include="..\DataAccesss\DataAccesss.csproj" />
-    <ProjectReference Include="..\DomainGeneral\DomainGeneral.csproj" />
-    <ProjectReference Include="..\DomainRegistration\DomainRegistration.csproj" />
+    <ProjectReference Include="..\Business.LogicRegistration\BusinessLogicRegistration.csproj" />
+    <ProjectReference Include="..\Data.Accesss\DataAccesss.csproj" />
+    <ProjectReference Include="..\Domain.General\DomainGeneral.csproj" />
+    <ProjectReference Include="..\Domain.Registration\DomainRegistration.csproj" />
   </ItemGroup>
 
 </Project>
