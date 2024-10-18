@@ -289,7 +289,6 @@ C:\Users\sasha\Desktop\micro\Web\Identity\Service.Identity\obj\Debug\net8.0\refi
 C:\Users\sasha\Desktop\micro\Web\Identity\Service.Identity\obj\Debug\net8.0\IdentityService.pdb
 C:\Users\sasha\Desktop\micro\Web\Identity\Service.Identity\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\sasha\Desktop\micro\Web\Identity\Service.Identity\bin\Debug\net8.0\appsettings.json
-C:\Users\sasha\Desktop\micro\Web\Identity\Service.Identity\bin\Debug\net8.0\Settings.json
 C:\Users\sasha\Desktop\micro\Web\Identity\Service.Identity\bin\Debug\net8.0\IdentityService.exe
 C:\Users\sasha\Desktop\micro\Web\Identity\Service.Identity\bin\Debug\net8.0\IdentityService.deps.json
 C:\Users\sasha\Desktop\micro\Web\Identity\Service.Identity\bin\Debug\net8.0\IdentityService.runtimeconfig.json

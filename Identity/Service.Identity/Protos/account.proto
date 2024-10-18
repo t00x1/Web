@@ -6,7 +6,6 @@ package registration;
 
 
 
-// Сообщения
 
 
 message UserDataRequest {

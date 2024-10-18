@@ -5,6 +5,7 @@ WORKDIR /app
 EXPOSE 8080
 EXPOSE 8081
 
+
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
@@ -13,29 +14,31 @@ WORKDIR /src
 COPY ["./Domain.General/DomainGeneral.csproj", "Domain.General/"]
 COPY ["./DataAccess.General/DataAccessGeneral.csproj", "DataAccess.General/"]
 COPY ["./Infrastructure.General/InfrastructureGeneral.csproj", "Infrastructure.General/"]
-
 COPY ["./Identity/Service.Identity/IdentityService.csproj", "Identity/Service.Identity/"]
 COPY ["./Identity/Infrastructure.Identity/InfrastructureIdentity.csproj", "Identity/Infrastructure.Identity/"]
 COPY ["./Identity/BusinessLogic.Identity/BusinessLogicIdentity.csproj", "Identity/BusinessLogic.Identity/"]
 COPY ["./Identity/DataAccess.Identity/DataAccessIdentity.csproj", "Identity/DataAccess.Identity/"]
 COPY ["./Identity/Domain.Identity/DomainIdentity.csproj", "Identity/Domain.Identity/"]
 
+# как это вообще работает 0_c
+COPY ./Identity/Settings.json /app/../../../../Settings.json
 
 RUN dotnet restore "Identity/Service.Identity/IdentityService.csproj"
 
 COPY . .
 
-
 WORKDIR "/src/Identity/Service.Identity"
 RUN dotnet build "IdentityService.csproj" -c $BUILD_CONFIGURATION -o /app/build
-
 
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
 RUN dotnet publish "IdentityService.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
 
-
 FROM base AS final
 WORKDIR /app
-COPY --from=publish /app/publish .
+# как это вообще работает 0_c
+COPY --from=build /app/../../../../Settings.json /app/../../../../Settings.json
+
+COPY --from=publish /app/publish . 
+
 ENTRYPOINT ["dotnet", "IdentityService.dll"]

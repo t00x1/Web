@@ -1,0 +1,22 @@
+services:
+  backendapi:
+    image: ${DOCKER_REGISTRY-}backendapi
+    build:
+      context: .
+      dockerfile: ./dockerfile.IdentityService
+    environment:
+      - ASPNETCORE_URLS=http://+:8080
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionString=Server=db;Database=Test;User=sa;Password=_WpZDJZ7Ra;MultipleActiveResultSets=true;
+    ports:
+      - "5000:8080"
+    depends_on:
+      - db
+
+  db:
+    image: mcr.microsoft.com/mssql/server
+    environment:
+      - SA_PASSWORD=_WpZDJZ7Ra
+      - ACCEPT_EULA=Y
+    container_name: mssql
+

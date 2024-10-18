@@ -23,7 +23,7 @@ public class SettingRead
             {
                 if (_settings == null)
                 {
-                    string Directory = "../../../Settings.json"; 
+                    string Directory = "../../../../Settings.json"; 
                     _settings = _structFile.Read<SettingsModel>(Directory);
                 }
                 return _settings;

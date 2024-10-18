@@ -22,10 +22,11 @@ namespace InfrastructureGeneral
             }
 
            
-            string basePath = AppDomain.CurrentDomain.BaseDirectory;
+            // string basePath = AppDomain.CurrentDomain.BaseDirectory;
 
           
-            string fullPath = Path.Combine(basePath, relativePath);
+            string fullPath = relativePath;
+            //Path.Combine(basePath, relativePath);
             Console.WriteLine(fullPath);
 
             
