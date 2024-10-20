@@ -14,15 +14,17 @@ namespace BusinessLogicIdentity
     public class UserLogic : IUserLogic
     {
 
-        private IRepositoryWrapper _repositoryWrapper;
-        private SettingsModel _settings;
-        private IFileContent _fileContent;
-        public UserLogic(IRepositoryWrapper repositoryWrapper, SettingRead settings, IFileContent fileContent)
+        readonly private IRepositoryWrapper _repositoryWrapper;
+        readonly private SettingWrapper _settings;
+        readonly private IFileContent _fileContent;
+        readonly private IPasswordHashingAlgorithm _passwordHashingAlgorithm;
+        public UserLogic(IRepositoryWrapper repositoryWrapper, SettingWrapper settings, IFileContent fileContent,IPasswordHashingAlgorithm passwordHashingAlgorithm )
 
         {
-            _settings = settings.Settings;
-            _fileContent = fileContent;
-            _repositoryWrapper = repositoryWrapper;
+           _settings = settings ?? throw new ArgumentNullException(nameof(settings));
+            _fileContent = fileContent ?? throw new ArgumentNullException(nameof(fileContent));
+            _repositoryWrapper = repositoryWrapper ?? throw new ArgumentNullException(nameof(repositoryWrapper));
+            _passwordHashingAlgorithm = passwordHashingAlgorithm ?? throw new ArgumentNullException(nameof(passwordHashingAlgorithm));
         }
         public async Task<List<User>> GetAll()
         {
@@ -53,11 +55,11 @@ namespace BusinessLogicIdentity
                     Name = model.Name,
                     Surname = model.Surname,
                     Patronymic = model.Patronymic,
-                    Password = new PasswordHasher(new BCryptPasswordHashingAlgorithm()).HashPassword(model.Password),
+                    Password = _passwordHashingAlgorithm.Hash(model.Password),
                   
                     
                     Avatar = null,
-                    /*BirthDate = model.BirthDate,*/
+                  
                     Email = model.Email,
                    
                     Male = model.Male,

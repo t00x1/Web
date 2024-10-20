@@ -1537,7 +1537,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "DomainGeneral": "1.0.0"
+          "DomainGeneral": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0"
         },
         "compile": {
           "bin/placeholder/InfrastructureGeneral.dll": {}

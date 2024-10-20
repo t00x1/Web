@@ -8,30 +8,41 @@ namespace InfrastructureGeneral
 {
     public class JSONFile : IStructFile 
     {
-        public JSONFile(IFileContent fileContent)
+        public JSONFile()
         {
 
           
-            _fileContent = fileContent;
-        }
-        private IFileContent _fileContent ;
-       
-       
-
-
-        public T Read<T>(string path) where T : class
-{
-    try
-    {
-        string fileContent = _fileContent.ReadFile(path);
-        return JsonSerializer.Deserialize<T>(fileContent);
         
-    }
-    catch (Exception ex)
-    {
-        throw new InvalidOperationException("Ошибка при чтении файла", ex);
-    }
-}
+        }
+  
+       
+
+
+        public T Get<T>(string JsonFile) where T : class
+        {
+            if (string.IsNullOrEmpty(JsonFile))
+            {
+                throw new ArgumentException($"{nameof(JsonFile)} равен null.");
+            }
+
+            try
+            {
+            
+                T result = JsonSerializer.Deserialize<T>(JsonFile);
+
+                if (result == null)
+                {
+                    throw new InvalidOperationException($"Десериализация объекта {typeof(T).Name} вернула null.");
+                }
+
+                return result;
+            }
+            catch (Exception ex)
+            {
+                
+                throw new InvalidOperationException($"Ошибка при десериализация", ex);
+            }
+        }
 
         /*public void Write(T model)
         {

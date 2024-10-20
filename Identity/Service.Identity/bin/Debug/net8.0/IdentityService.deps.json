@@ -696,7 +696,8 @@
       },
       "InfrastructureGeneral/1.0.0": {
         "dependencies": {
-          "DomainGeneral": "1.0.0"
+          "DomainGeneral": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection": "8.0.1"
         },
         "runtime": {
           "InfrastructureGeneral.dll": {}

@@ -10,9 +10,9 @@ namespace InfrastructureGeneral
     public class PasswordHasher
     {
         private readonly IPasswordHashingAlgorithm _hashingAlgorithm;
-        public PasswordHasher(IPasswordHashingAlgorithm hashingAlgorithm)
+        public PasswordHasher(IPasswordHashingAlgorithm passwordHashingAlgorithm)
         {
-            _hashingAlgorithm = hashingAlgorithm;
+            _hashingAlgorithm = passwordHashingAlgorithm ?? throw new ArgumentNullException(nameof(passwordHashingAlgorithm));
         }
         public string HashPassword(string password)
         {

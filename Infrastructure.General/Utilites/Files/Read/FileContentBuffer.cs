@@ -23,12 +23,11 @@ namespace InfrastructureGeneral
 
             if (relativePath.IndexOfAny(Path.GetInvalidPathChars()) >= 0)
             {
-                throw new ArgumentException("Путь содержит недопустимые символы.");
+                throw new ArgumentException("Путь содержит недопустимые символы.", nameof(relativePath));
             }
 
             string basePath = AppDomain.CurrentDomain.BaseDirectory;
-            string fullPath = Path.Combine(basePath, relativePath);
-            Console.WriteLine(fullPath);
+            string fullPath = Path.GetFullPath(Path.Combine(basePath, relativePath));
 
             if (fullPath.Length >= 260)
             {
@@ -37,7 +36,7 @@ namespace InfrastructureGeneral
 
             if (!File.Exists(fullPath))
             {
-                throw new FileNotFoundException($"Файл по пути {fullPath} не найден.");
+                throw new FileNotFoundException($"Файл по пути {fullPath} не найден.", fullPath);
             }
 
             try

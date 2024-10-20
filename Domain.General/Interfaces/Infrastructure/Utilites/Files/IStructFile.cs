@@ -2,7 +2,7 @@
 {
     public interface IStructFile
     {
-        T Read<T>(string path) where T : class;
+        public T Get<T>(string JsonFile) where T : class;
        
 
     }

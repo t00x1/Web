@@ -12,7 +12,7 @@ namespace InfrastructureGeneral
         {
             
         }
-        public string GenerateCode() => Guid.NewGuid().ToString() + "-" +DateTime.UtcNow.ToString("yyyyMMddHHmmssfff");
+        public string GenerateCode() => Guid.NewGuid().ToString() + "-" +DateTime.UtcNow.ToString("yyyyMMddHHmm");
         
 
     }
